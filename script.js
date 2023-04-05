@@ -1,3 +1,3 @@
-// import cytoscape from "./cytoscape.esm.min.js";
+import cytoscape from "cytoscape";
 
 console.log("hi");
