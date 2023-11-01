@@ -671,6 +671,34 @@ const cy = cytoscape({
 				target: "ah",
 			},
 		},
+		{
+			data: {
+				id: "edge_q_aa",
+				source: "q",
+				target: "aa",
+			},
+		},
+		{
+			data: {
+				id: "edge_q_aj",
+				source: "q",
+				target: "aj",
+			},
+		},
+		{
+			data: {
+				id: "edge_q_j",
+				source: "q",
+				target: "j",
+			},
+		},
+		{
+			data: {
+				id: "edge_q_ab",
+				source: "q",
+				target: "ab",
+			},
+		},
 	],
 
 	style: [
