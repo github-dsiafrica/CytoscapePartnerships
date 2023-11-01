@@ -780,3 +780,6 @@ const cy = cytoscape({
 		});
 	},
 });
+document.getElementById("fit").addEventListener("click", () => {
+	cy.fit();
+});
