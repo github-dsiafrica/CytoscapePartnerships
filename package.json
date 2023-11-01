@@ -12,6 +12,8 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
-    "cytoscape": "^3.23.0"
+    "cytoscape": "^3.23.0",
+    "cytoscape-bubblesets": "^3.2.0",
+    "cytoscape-layers": "^2.4.2"
   }
 }
