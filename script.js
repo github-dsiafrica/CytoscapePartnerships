@@ -1,4 +1,7 @@
 import cytoscape from "cytoscape";
+import coseBilkent from "cytoscape-cose-bilkent";
+
+cytoscape.use(coseBilkent);
 
 const cy = cytoscape({
 	container: document.getElementById("cy"),
@@ -715,8 +718,8 @@ const cy = cytoscape({
 			selector: "edge",
 			style: {
 				width: 3,
-				"line-color": "#ccc",
-				"target-arrow-color": "#ccc",
+				"line-color": "#333",
+				"target-arrow-color": "#333",
 				"target-arrow-shape": "triangle",
 				"curve-style": "bezier",
 			},
@@ -760,14 +763,15 @@ const cy = cytoscape({
 	],
 
 	layout: {
-		name: "grid",
-		rows: 10,
+		name: "cose-bilkent",
+		nodeDimensionsIncludeLabels: true, // Consider node labels in node dimensions
+		// rows: 20,
 		// idealEdgeLength: 100, // Adjust the ideal edge length as needed
 		// nodeOverlap: 20, // Adjust node overlap as needed
 		// refresh: 20, // Refresh the layout every 20 iterations (you can adjust this value)
-		fit: true, // Fit the graph in the viewport
-		// padding: 30, // Add padding around the graph
-		// randomize: true, // Randomize node positions on load
+		// fit: true, // Fit the graph in the viewport
+		padding: 30, // Add padding around the graph
+		randomize: true, // Randomize node positions on load
 	},
 	ready: function (e) {
 		const cy = e.cy;
@@ -780,6 +784,28 @@ const cy = cytoscape({
 		});
 	},
 });
+
+// Use a variable to track the highlight state
+let isHighlighted = false;
+
+// Add a click event handler for nodes
+cy.on("tap", "node", function (event) {
+	const targetNode = event.target;
+
+	// Get all connected edges to the clicked node
+	const connectedEdges = targetNode.connectedEdges();
+
+	if (isHighlighted) {
+		// If edges are already highlighted, unhighlight them
+		connectedEdges.style("width", "3");
+		isHighlighted = false;
+	} else {
+		// If edges are not highlighted, highlight them
+		connectedEdges.style("width", "8");
+		isHighlighted = true;
+	}
+});
+
 document.getElementById("fit").addEventListener("click", () => {
 	cy.fit();
 });
