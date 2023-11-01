@@ -222,8 +222,7 @@ const cy = cytoscape({
 		{
 			data: {
 				group: "research",
-				short_name:
-					"Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa",
+				short_name: "LAMCA",
 				label:
 					"Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa",
 				id: "y",
@@ -292,7 +291,7 @@ const cy = cytoscape({
 		{
 			data: {
 				group: "training",
-				short_name: "Research Training in Data Science for Health in Rwanda",
+				short_name: "DSH Training in Rwanda",
 				label: "Research Training in Data Science for Health in Rwanda",
 				id: "ah",
 			},
@@ -345,8 +344,7 @@ const cy = cytoscape({
 		{
 			data: {
 				group: "research_education",
-				short_name:
-					"West Africa Center of Excellence for Data Science Research Education",
+				short_name: "WACoE for DS Research Education",
 				label:
 					"West Africa Center of Excellence for Data Science Research Education",
 				id: "an",
@@ -718,7 +716,7 @@ const cy = cytoscape({
 			selector: "edge",
 			style: {
 				width: 3,
-				"line-color": "#333",
+				"line-color": "#ccc",
 				"target-arrow-color": "#333",
 				"target-arrow-shape": "triangle",
 				"curve-style": "bezier",
