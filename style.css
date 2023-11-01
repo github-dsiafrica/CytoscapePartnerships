@@ -56,6 +56,9 @@ h1 {
 	padding-bottom: 1rem;
 	align-items: center;
 }
+.legend li:last-of-type {
+	padding: 0;
+}
 
 .legend li div {
 	width: 20px;
