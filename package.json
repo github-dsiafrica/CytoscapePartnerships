@@ -1,20 +1,20 @@
 {
-  "name": "cytoscape-test",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^4.2.0"
-  },
-  "dependencies": {
-    "cytoscape": "^3.23.0",
-    "cytoscape-bubblesets": "^3.2.0",
-    "cytoscape-cose-bilkent": "^4.1.0",
-    "cytoscape-layers": "^2.4.2"
-  }
+	"name": "cytoscape-test",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^4.2.0"
+	},
+	"dependencies": {
+		"cytoscape": "^3.23.0",
+		"cytoscape-bubblesets": "^3.2.0",
+		"cytoscape-cose-bilkent": "^4.1.0",
+		"cytoscape-layers": "^2.4.2"
+	}
 }
