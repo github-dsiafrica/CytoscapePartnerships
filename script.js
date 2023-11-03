@@ -2,7 +2,7 @@ import cytoscape from "cytoscape";
 import coseBilkent from "cytoscape-cose-bilkent";
 
 import nodes from "./data/nodes.json";
-import edges from "./data/edges.json";
+import { edges } from "./data/edges";
 
 cytoscape.use(coseBilkent);
 
@@ -110,6 +110,6 @@ cy.on("tap", "node", function (event) {
 	}
 });
 
-document.getElementById("fit").addEventListener("click", () => {
-	cy.fit();
-});
+// document.getElementById("fit").addEventListener("click", () => {
+// 	cy.fit();
+// });
