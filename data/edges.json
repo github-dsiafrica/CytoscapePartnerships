@@ -1,0 +1,256 @@
+[
+	{
+		"data": {
+			"id": "edge_am_aa",
+			"source": "am",
+			"target": "aa"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_am_m",
+			"source": "am",
+			"target": "m"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_am_ae",
+			"source": "am",
+			"target": "ae"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_am_n",
+			"source": "am",
+			"target": "n"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_am_g",
+			"source": "am",
+			"target": "g"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_am_q",
+			"source": "am",
+			"target": "q"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_am_r",
+			"source": "am",
+			"target": "r"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_am_y",
+			"source": "am",
+			"target": "y"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ac_y",
+			"source": "ac",
+			"target": "y"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ac_y",
+			"source": "aa",
+			"target": "y"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_aa_n",
+			"source": "aa",
+			"target": "n"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_aj_ag",
+			"source": "aj",
+			"target": "ag"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_v_g",
+			"source": "v",
+			"target": "g"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_m_b",
+			"source": "m",
+			"target": "b"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_m_aa",
+			"source": "m",
+			"target": "aa"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ae_b",
+			"source": "ae",
+			"target": "b"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ab_ai",
+			"source": "ab",
+			"target": "ai"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ai_m",
+			"source": "ai",
+			"target": "m"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_j_q",
+			"source": "j",
+			"target": "q"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_j_ah",
+			"source": "j",
+			"target": "ah"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ah_n",
+			"source": "ah",
+			"target": "n"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ah_q",
+			"source": "ah",
+			"target": "q"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_ah_ak",
+			"source": "ah",
+			"target": "ak"
+		}
+	},
+
+	{
+		"data": {
+			"id": "edge_n_m",
+			"source": "n",
+			"target": "m"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_af_an",
+			"source": "af",
+			"target": "an"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_af_ac",
+			"source": "af",
+			"target": "ac"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_af_i",
+			"source": "af",
+			"target": "i"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_x_aa",
+			"source": "x",
+			"target": "aa"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_al_ab",
+			"source": "al",
+			"target": "ab"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_h_m",
+			"source": "h",
+			"target": "m"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_t_aj",
+			"source": "t",
+			"target": "aj"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_r_aj",
+			"source": "r",
+			"target": "aj"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_c_l",
+			"source": "c",
+			"target": "l"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_q_aa",
+			"source": "q",
+			"target": "aa"
+		}
+	},
+	{
+		"data": {
+			"id": "edge_q_aj",
+			"source": "q",
+			"target": "aj"
+		}
+	},
+
+	{
+		"data": {
+			"id": "edge_q_ab",
+			"source": "q",
+			"target": "ab"
+		}
+	}
+]
