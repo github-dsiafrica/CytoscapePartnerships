@@ -13,7 +13,6 @@
 	},
 	"dependencies": {
 		"cytoscape": "^3.23.0",
-		"cytoscape-bubblesets": "^3.2.0",
 		"cytoscape-cose-bilkent": "^4.1.0",
 		"cytoscape-layers": "^2.4.2"
 	}
