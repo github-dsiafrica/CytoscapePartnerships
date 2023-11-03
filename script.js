@@ -6,12 +6,16 @@ import edges from "./data/edges.json";
 
 cytoscape.use(coseBilkent);
 
+// Initialise cytoscape
 const cy = cytoscape({
+	// Set container for graph.
 	container: document.getElementById("cy"),
+
+	// Define the nodes and edges for the graph.
 	elements: [...nodes, ...edges],
 
+	// Define the stylesheet for the graph
 	style: [
-		// the stylesheet for the graph
 		{
 			selector: "node",
 			style: {
@@ -27,8 +31,7 @@ const cy = cytoscape({
 				width: 3,
 				"line-color": "#ccc",
 				"target-arrow-color": "#333",
-				"target-arrow-shape": "",
-				"curve-style": "bezier",
+				"curve-style": "unbundled-bezier",
 			},
 		},
 		{
@@ -72,13 +75,7 @@ const cy = cytoscape({
 	layout: {
 		name: "cose-bilkent",
 		nodeDimensionsIncludeLabels: true, // Consider node labels in node dimensions
-		// rows: 20,
-		// idealEdgeLength: 100, // Adjust the ideal edge length as needed
-		// nodeOverlap: 20, // Adjust node overlap as needed
-		// refresh: 20, // Refresh the layout every 20 iterations (you can adjust this value)
-		// fit: true, // Fit the graph in the viewport
 		padding: 30, // Add padding around the graph
-		randomize: true, // Randomize node positions on load
 	},
 	ready: function (e) {
 		const cy = e.cy;
