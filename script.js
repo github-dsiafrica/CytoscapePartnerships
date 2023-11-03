@@ -408,13 +408,6 @@ const cy = cytoscape({
 		},
 		{
 			data: {
-				id: "edge_ac_af",
-				source: "ac",
-				target: "af",
-			},
-		},
-		{
-			data: {
 				id: "edge_ac_y",
 				source: "ac",
 				target: "y",
@@ -464,13 +457,6 @@ const cy = cytoscape({
 		},
 		{
 			data: {
-				id: "edge_m_am",
-				source: "m",
-				target: "am",
-			},
-		},
-		{
-			data: {
 				id: "edge_ae_b",
 				source: "ae",
 				target: "b",
@@ -478,23 +464,9 @@ const cy = cytoscape({
 		},
 		{
 			data: {
-				id: "edge_ae_am",
-				source: "ae",
-				target: "am",
-			},
-		},
-		{
-			data: {
 				id: "edge_ab_ai",
 				source: "ab",
 				target: "ai",
-			},
-		},
-		{
-			data: {
-				id: "edge_ai_ab",
-				source: "ai",
-				target: "ab",
 			},
 		},
 		{
@@ -520,13 +492,6 @@ const cy = cytoscape({
 		},
 		{
 			data: {
-				id: "edge_ah_j",
-				source: "ah",
-				target: "j",
-			},
-		},
-		{
-			data: {
 				id: "edge_ah_n",
 				source: "ah",
 				target: "n",
@@ -546,48 +511,7 @@ const cy = cytoscape({
 				target: "ak",
 			},
 		},
-		{
-			data: {
-				id: "edge_b_ae",
-				source: "b",
-				target: "ae",
-			},
-		},
-		{
-			data: {
-				id: "edge_b_m",
-				source: "b",
-				target: "m",
-			},
-		},
-		{
-			data: {
-				id: "edge_ag_aj",
-				source: "ag",
-				target: "aj",
-			},
-		},
-		{
-			data: {
-				id: "edge_g_am",
-				source: "g",
-				target: "am",
-			},
-		},
-		{
-			data: {
-				id: "edge_g_v",
-				source: "g",
-				target: "v",
-			},
-		},
-		{
-			data: {
-				id: "edge_n_aa",
-				source: "n",
-				target: "aa",
-			},
-		},
+
 		{
 			data: {
 				id: "edge_n_m",
@@ -639,13 +563,6 @@ const cy = cytoscape({
 		},
 		{
 			data: {
-				id: "edge_y_am",
-				source: "y",
-				target: "am",
-			},
-		},
-		{
-			data: {
 				id: "edge_t_aj",
 				source: "t",
 				target: "aj",
@@ -667,13 +584,6 @@ const cy = cytoscape({
 		},
 		{
 			data: {
-				id: "edge_ak_ah",
-				source: "ak",
-				target: "ah",
-			},
-		},
-		{
-			data: {
 				id: "edge_q_aa",
 				source: "q",
 				target: "aa",
@@ -686,13 +596,7 @@ const cy = cytoscape({
 				target: "aj",
 			},
 		},
-		{
-			data: {
-				id: "edge_q_j",
-				source: "q",
-				target: "j",
-			},
-		},
+
 		{
 			data: {
 				id: "edge_q_ab",
@@ -709,6 +613,7 @@ const cy = cytoscape({
 			style: {
 				"background-color": "#ff0000",
 				label: "data(short_name)",
+				"font-family": "Futura Std Book, sans-serif",
 			},
 		},
 
@@ -718,7 +623,7 @@ const cy = cytoscape({
 				width: 3,
 				"line-color": "#ccc",
 				"target-arrow-color": "#333",
-				"target-arrow-shape": "triangle",
+				"target-arrow-shape": "",
 				"curve-style": "bezier",
 			},
 		},
