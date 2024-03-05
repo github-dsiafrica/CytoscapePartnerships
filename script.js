@@ -70,6 +70,12 @@ const cy = cytoscape({
 				"background-color": "blue",
 			},
 		},
+		{
+			selector: 'node[group="cc"]',
+			style: {
+				"background-color": "blue",
+			},
+		},
 	],
 
 	layout: {
