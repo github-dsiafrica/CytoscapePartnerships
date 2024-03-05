@@ -274,7 +274,7 @@
 	{
 		"data": {
 			"group": "research_hub",
-			"short_name": "INFORM",
+			"short_name": "INFORM Africa",
 			"label": "Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa",
 			"id": "aj"
 		}
@@ -317,6 +317,118 @@
 			"short_name": "UCT",
 			"label": "University of Cape Town",
 			"id": "ao"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "MU",
+			"label": "Mbarara University",
+			"id": "ap"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "SU",
+			"label": "Stellenbosch University",
+			"id": "aq"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "AKU",
+			"label": "Aga Khan University",
+			"id": "ar"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "RU",
+			"label": "Redeemer's University",
+			"id": "as"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "Wits",
+			"label": "University of Witswatersrand",
+			"id": "at"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "IHVN",
+			"label": "Institute of Human Virology Nigeria",
+			"id": "au"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UB",
+			"label": "University of Buea",
+			"id": "av"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "KNUST",
+			"label": "Kwame Nkrumah University of Science & Technology",
+			"id": "aw"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "CU",
+			"label": "Columbia University",
+			"id": "ax"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "HSPH",
+			"label": "Harvard School of Public Health",
+			"id": "ay"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UR",
+			"label": "University of Rwanda",
+			"id": "az"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "NYU",
+			"label": "New York University",
+			"id": "ba"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UKZN",
+			"label": "University of KwaZulu-Natal",
+			"id": "bb"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "CBR",
+			"label": "Center for Bioethics Research",
+			"id": "bc"
 		}
 	}
 ]
