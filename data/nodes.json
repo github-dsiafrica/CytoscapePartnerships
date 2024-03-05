@@ -211,7 +211,7 @@
 		"data": {
 			"group": "research_hub",
 			"short_name": "MADIVA",
-			"label": "MADIVA (Multimorbidity in Africa: Digital innovation, visualisationj and application)",
+			"label": "MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)",
 			"id": "aa"
 		}
 	},
@@ -309,6 +309,14 @@
 			"short_name": "WACoE for DS Research Education",
 			"label": "West Africa Center of Excellence for Data Science Research Education",
 			"id": "an"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UCT",
+			"label": "University of Cape Town",
+			"id": "ao"
 		}
 	}
 ]

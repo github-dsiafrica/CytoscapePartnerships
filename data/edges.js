@@ -28,11 +28,11 @@ export const edges = [
 			id: `edge_${projectsMap.get(
 				"eLwazi (Open Data Science Platform)"
 			)}_${projectsMap.get(
-				"MADIVA (Multimorbidity in Africa: Digital innovation, visualization, and application)"
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
 			)}`,
 			source: projectsMap.get("eLwazi (Open Data Science Platform)"),
 			target: projectsMap.get(
-				"MADIVA (Multimorbidity in Africa: Digital innovation, visualization, and application)"
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
 			),
 		},
 	},
@@ -73,6 +73,24 @@ export const edges = [
 			target: projectsMap.get(
 				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
 			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${projectsMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${projectsMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: projectsMap.get("DS-I Africa Coordinating Center"),
+			target: projectsMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${projectsMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${projectsMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: projectsMap.get("DS-I Africa Coordinating Center"),
+			target: projectsMap.get("eLwazi (Open Data Science Platform)"),
 		},
 	},
 ];
