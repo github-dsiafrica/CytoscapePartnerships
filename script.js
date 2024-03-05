@@ -116,6 +116,6 @@ cy.on("tap", "node", function (event) {
 	}
 });
 
-// document.getElementById("fit").addEventListener("click", () => {
-// 	cy.fit();
-// });
+document.getElementById("fit").addEventListener("click", () => {
+	cy.fit();
+});
