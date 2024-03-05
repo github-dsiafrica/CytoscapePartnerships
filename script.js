@@ -76,6 +76,18 @@ const cy = cytoscape({
 				"background-color": "blue",
 			},
 		},
+		{
+			selector: 'node[group="institution"]',
+			style: {
+				"background-color": "lightgreen",
+			},
+		},
+		{
+			selector: 'node[group="country"]',
+			style: {
+				"background-color": "purple",
+			},
+		},
 	],
 
 	layout: {
