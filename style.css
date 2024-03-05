@@ -244,3 +244,9 @@ h1 {
 .legend li:nth-child(6) div {
 	background: grey;
 }
+.legend li:nth-child(7) div {
+	background: lightgreen;
+}
+.legend li:nth-child(8) div {
+	background: purple;
+}
