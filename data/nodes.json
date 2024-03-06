@@ -430,5 +430,13 @@
 			"label": "Center for Bioethics Research",
 			"id": "bc"
 		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "MU",
+			"label": "Makerere University",
+			"id": "bd"
+		}
 	}
 ]
