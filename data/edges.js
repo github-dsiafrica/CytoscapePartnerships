@@ -142,6 +142,15 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("Mbarara University")}_${nodesMap.get(
+				"Uganda"
+			)}`,
+			source: nodesMap.get("Mbarara University"),
+			target: nodesMap.get("Uganda"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get(
@@ -162,6 +171,15 @@ export const edges = [
 				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
 			),
 			target: nodesMap.get("University of Witswatersrand"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Witswatersrand")}_${nodesMap.get(
+				"South Africa"
+			)}`,
+			source: nodesMap.get("University of Witswatersrand"),
+			target: nodesMap.get("South Africa"),
 		},
 	},
 	{
@@ -191,6 +209,26 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}_${nodesMap.get("Aga Khan University")}`,
+			source: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+			target: nodesMap.get("Aga Khan University"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Aga Khan University")}_${nodesMap.get(
+				"Kenya"
+			)}`,
+			source: nodesMap.get("Aga Khan University"),
+			target: nodesMap.get("Kenya"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get(
 				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
@@ -210,6 +248,15 @@ export const edges = [
 				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
 			),
 			target: nodesMap.get("Redeemer's University"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Redeemer's University")}_${nodesMap.get(
+				"Nigeria"
+			)}`,
+			source: nodesMap.get("Redeemer's University"),
+			target: nodesMap.get("Nigeria"),
 		},
 	},
 	{
@@ -263,6 +310,15 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"Institute of Human Virology Nigeria"
+			)}_${nodesMap.get("Nigeria")}`,
+			source: nodesMap.get("Institute of Human Virology Nigeria"),
+			target: nodesMap.get("Nigeria"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get(
 				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
@@ -282,6 +338,15 @@ export const edges = [
 				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
 			),
 			target: nodesMap.get("University of Buea"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Buea")}_${nodesMap.get(
+				"Cameroon"
+			)}`,
+			source: nodesMap.get("University of Buea"),
+			target: nodesMap.get("Cameroon"),
 		},
 	},
 	{
@@ -335,6 +400,15 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"Kwame Nkrumah University of Science & Technology"
+			)}_${nodesMap.get("Ghana")}`,
+			source: nodesMap.get("Kwame Nkrumah University of Science & Technology"),
+			target: nodesMap.get("Ghana"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get(
 				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
@@ -354,6 +428,15 @@ export const edges = [
 				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
 			),
 			target: nodesMap.get("Columbia University"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Columbia University")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("Columbia University"),
+			target: nodesMap.get("United States of America"),
 		},
 	},
 	{
@@ -383,6 +466,15 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"Harvard School of Public Health"
+			)}_${nodesMap.get("United States of America")}`,
+			source: nodesMap.get("Harvard School of Public Health"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get(
 				"Research Training in Data Science for Health in Rwanda"
@@ -402,6 +494,15 @@ export const edges = [
 				"Research Training in Data Science for Health in Rwanda"
 			),
 			target: nodesMap.get("University of Rwanda"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Rwanda")}_${nodesMap.get(
+				"Rwanda"
+			)}`,
+			source: nodesMap.get("University of Rwanda"),
+			target: nodesMap.get("Rwanda"),
 		},
 	},
 	{
@@ -430,6 +531,15 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("New York University")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("New York University"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get(
@@ -450,6 +560,15 @@ export const edges = [
 				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
 			),
 			target: nodesMap.get("Makerere University"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Makerere University")}_${nodesMap.get(
+				"Uganda"
+			)}`,
+			source: nodesMap.get("Makerere University"),
+			target: nodesMap.get("Uganda"),
 		},
 	},
 	{
@@ -478,6 +597,15 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("Stellenbosch University")}_${nodesMap.get(
+				"South Africa"
+			)}`,
+			source: nodesMap.get("Stellenbosch University"),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get("DS-I Africa - LAW")}`,
@@ -492,6 +620,15 @@ export const edges = [
 			)}`,
 			source: nodesMap.get("DS-I Africa - LAW"),
 			target: nodesMap.get("University of KwaZulu-Natal"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of KwaZulu-Natal")}_${nodesMap.get(
+				"South Africa"
+			)}`,
+			source: nodesMap.get("University of KwaZulu-Natal"),
+			target: nodesMap.get("South Africa"),
 		},
 	},
 	{
@@ -516,6 +653,15 @@ export const edges = [
 				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
 			),
 			target: nodesMap.get("Center for Bioethics Research"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Center for Bioethics Research")}_${nodesMap.get(
+				"Nigeria"
+			)}`,
+			source: nodesMap.get("Center for Bioethics Research"),
+			target: nodesMap.get("Nigeria"),
 		},
 	},
 ];

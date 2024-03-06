@@ -438,5 +438,69 @@
 			"label": "Makerere University",
 			"id": "bd"
 		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "UGA",
+			"label": "Uganda",
+			"id": "be"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "ZAF",
+			"label": "South Africa",
+			"id": "bf"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "KEN",
+			"label": "Kenya",
+			"id": "bg"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "NGA",
+			"label": "Nigeria",
+			"id": "bh"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "CMR",
+			"label": "Cameroon",
+			"id": "bi"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "GHA",
+			"label": "Ghana",
+			"id": "bj"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "USA",
+			"label": "United States of America",
+			"id": "bk"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "RWA",
+			"label": "Rwanda",
+			"id": "bl"
+		}
 	}
 ]
