@@ -24,7 +24,6 @@ const cy = cytoscape({
 				"font-family": "Futura Std Book, sans-serif",
 			},
 		},
-
 		{
 			selector: "edge",
 			style: {
@@ -126,6 +125,16 @@ cy.on("tap", "node", function (event) {
 		connectedEdges.style("width", "8");
 		isHighlighted = true;
 	}
+});
+
+cy.on("mouseover", "node", (event) => {
+	const node = event.target;
+	node.style("label", node.data("label"));
+});
+
+cy.on("mouseout", "node", (event) => {
+	const node = event.target;
+	node.style("label", ""); // Hide the label on mouseout
 });
 
 document.getElementById("fit").addEventListener("click", () => {
