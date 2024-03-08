@@ -4,21 +4,10 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
-				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
 			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
 			source: nodesMap.get(
-				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
-			),
-			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
-		},
-	},
-	{
-		data: {
-			id: `edge_${nodesMap.get(
-				"Research Training in Data Science for Health in Rwanda"
-			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
-			source: nodesMap.get(
-				"Research Training in Data Science for Health in Rwanda"
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
 			),
 			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
 		},
