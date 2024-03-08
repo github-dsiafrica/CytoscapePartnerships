@@ -87,6 +87,13 @@ const cy = cytoscape({
 				"background-color": "purple",
 			},
 		},
+		{
+			selector: ":label",
+			style: {
+				"text-outline-color": "white",
+				"z-index": 100,
+			},
+		},
 	],
 
 	layout: {
@@ -119,10 +126,12 @@ cy.on("tap", "node", function (event) {
 	if (isHighlighted) {
 		// If edges are already highlighted, unhighlight them
 		connectedEdges.style("width", "3");
+		connectedEdges.style("line-color", "#ccc");
 		isHighlighted = false;
 	} else {
 		// If edges are not highlighted, highlight them
 		connectedEdges.style("width", "8");
+		connectedEdges.style("line-color", "#286090");
 		isHighlighted = true;
 	}
 });
