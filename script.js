@@ -88,7 +88,7 @@ const cy = cytoscape({
 			},
 		},
 		{
-			selector: ":label",
+			selector: "label",
 			style: {
 				"text-outline-color": "white",
 				"font-size": 30,

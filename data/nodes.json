@@ -502,5 +502,85 @@
 			"label": "Rwanda",
 			"id": "bl"
 		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UWC",
+			"label": "University of the Western Cape",
+			"id": "bm"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UoM",
+			"label": "University of Mauritius",
+			"id": "bn"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "MUS",
+			"label": "Mauritius",
+			"id": "bo"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UofK",
+			"label": "University of Khartoum",
+			"id": "bp"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "SDN",
+			"label": "Sudan",
+			"id": "bq"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UVRI",
+			"label": "Uganda Viral Research Institute",
+			"id": "br"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "USTTB",
+			"label": "University of Science, Techniques and Technology, Bamako",
+			"id": "bs"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "MLI",
+			"label": "Mali",
+			"id": "bt"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "EMBL-EBI",
+			"label": "EMBL European Bioinformatics Institute",
+			"id": "bu"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "GBR",
+			"label": " United Kingdom of Great Britain and Northern Ireland",
+			"id": "bv"
+		}
 	}
 ]

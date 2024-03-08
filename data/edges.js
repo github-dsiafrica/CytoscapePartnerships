@@ -4,6 +4,140 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"University of the Western Cape"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("University of the Western Cape"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Stellenbosch University")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("Stellenbosch University"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Witswatersrand")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("University of Witswatersrand"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Mauritius")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("University of Mauritius"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"EMBL European Bioinformatics Institute"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("EMBL European Bioinformatics Institute"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"EMBL European Bioinformatics Institute"
+			)}_${nodesMap.get(
+				" United Kingdom of Great Britain and Northern Ireland"
+			)}`,
+			source: nodesMap.get("EMBL European Bioinformatics Institute"),
+			target: nodesMap.get(
+				" United Kingdom of Great Britain and Northern Ireland"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"University of Science, Techniques and Technology, Bamako"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get(
+				"University of Science, Techniques and Technology, Bamako"
+			),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"University of Science, Techniques and Technology, Bamako"
+			)}_${nodesMap.get("Mali")}`,
+			source: nodesMap.get(
+				"University of Science, Techniques and Technology, Bamako"
+			),
+			target: nodesMap.get("Mali"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Makerere University")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("Makerere University"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Uganda Viral Research Institute"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("Uganda Viral Research Institute"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Uganda Viral Research Institute"
+			)}_${nodesMap.get("Uganda")}`,
+			source: nodesMap.get("Uganda Viral Research Institute"),
+			target: nodesMap.get("Uganda"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Khartoum")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("University of Khartoum"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Khartoum")}_${nodesMap.get(
+				"Sudan"
+			)}`,
+			source: nodesMap.get("University of Khartoum"),
+			target: nodesMap.get("Sudan"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Mauritius")}_${nodesMap.get(
+				"Mauritius"
+			)}`,
+			source: nodesMap.get("University of Mauritius"),
+			target: nodesMap.get("Mauritius"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"Computational Omics and Biomedical Informatics Program (COBIP)"
 			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
 			source: nodesMap.get(
