@@ -88,6 +88,12 @@ const cy = cytoscape({
 			},
 		},
 		{
+			selector: 'node[group="external-partner"]',
+			style: {
+				"background-color": "pink",
+			},
+		},
+		{
 			selector: "label",
 			style: {
 				"text-outline-color": "white",
