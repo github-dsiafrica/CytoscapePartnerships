@@ -39,6 +39,60 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("Broad Institute")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("Broad Institute"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Broad Institute")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("Broad Institute"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"University of California, Santa Cruz"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("University of California, Santa Cruz"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"University of California, Santa Cruz"
+			)}_${nodesMap.get("United States of America")}`,
+			source: nodesMap.get("University of California, Santa Cruz"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Chicago")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("University of Chicago"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Chicago")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("University of Chicago"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"EMBL European Bioinformatics Institute"
 			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,

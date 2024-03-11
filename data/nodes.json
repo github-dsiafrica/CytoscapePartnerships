@@ -582,5 +582,29 @@
 			"label": " United Kingdom of Great Britain and Northern Ireland",
 			"id": "bv"
 		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UChicago",
+			"label": "University of Chicago",
+			"id": "bw"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "UCSC",
+			"label": "University of California, Santa Cruz",
+			"id": "bx"
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "BI",
+			"label": "Broad Institute",
+			"id": "by"
+		}
 	}
 ]
