@@ -40,10 +40,59 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
-				"Human Pangenome Reference Consortium"
+				"NGS Academy for the Africa CDC's Africa Pathogen Genomics Initiative"
 			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
-			source: nodesMap.get("Human Pangenome Reference Consortium"),
+			source: nodesMap.get(
+				"NGS Academy for the Africa CDC's Africa Pathogen Genomics Initiative"
+			),
 			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"NGS Academy for the Africa CDC's Africa Pathogen Genomics Initiative"
+			)}_${nodesMap.get("South Africa")}`,
+			source: nodesMap.get(
+				"NGS Academy for the Africa CDC's Africa Pathogen Genomics Initiative"
+			),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Public Health Alliance for Genomic Epidemiology"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("Public Health Alliance for Genomic Epidemiology"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Public Health Alliance for Genomic Epidemiology"
+			)}_${nodesMap.get("South Africa")}`,
+			source: nodesMap.get("Public Health Alliance for Genomic Epidemiology"),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Theiagen Genomics")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("Theiagen Genomics"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Theiagen Genomics")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("Theiagen Genomics"),
+			target: nodesMap.get("United States of America"),
 		},
 	},
 	{
@@ -52,6 +101,24 @@ export const edges = [
 				"eLwazi (Open Data Science Platform)"
 			)}`,
 			source: nodesMap.get("African Biogenome Project"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("African Biogenome Project")}_${nodesMap.get(
+				"Africa"
+			)}`,
+			source: nodesMap.get("African Biogenome Project"),
+			target: nodesMap.get("Africa"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Human Pangenome Reference Consortium"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("Human Pangenome Reference Consortium"),
 			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
 		},
 	},
@@ -126,11 +193,9 @@ export const edges = [
 	},
 	{
 		data: {
-			id: `edge_${nodesMap.get("REDCap Africa")}_${nodesMap.get(
-				"South Africa"
-			)}`,
+			id: `edge_${nodesMap.get("REDCap Africa")}_${nodesMap.get("Africa")}`,
 			source: nodesMap.get("REDCap Africa"),
-			target: nodesMap.get("South Africa"),
+			target: nodesMap.get("Africa"),
 		},
 	},
 	{

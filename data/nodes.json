@@ -694,5 +694,37 @@
 			"label": "African Biogenome Project",
 			"id": "cj"
 		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "Africa",
+			"label": "Africa",
+			"id": "ck"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Theiagen",
+			"label": "Theiagen Genomics",
+			"id": "cl"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "PHA4GE",
+			"label": "Public Health Alliance for Genomic Epidemiology",
+			"id": "cm"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "AfricaCDC",
+			"label": "NGS Academy for the Africa CDC's Africa Pathogen Genomics Initiative",
+			"id": "cn"
+		}
 	}
 ]
