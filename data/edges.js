@@ -39,6 +39,196 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get(
+				"Human Pangenome Reference Consortium"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("Human Pangenome Reference Consortium"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("African Biogenome Project")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("African Biogenome Project"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Human Pangenome Reference Consortium"
+			)}_${nodesMap.get("United States of America")}`,
+			source: nodesMap.get("Human Pangenome Reference Consortium"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"African Centers for Excellence in Bioinformatics and Data-Intensive Science"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get(
+				"African Centers for Excellence in Bioinformatics and Data-Intensive Science"
+			),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"African Centers for Excellence in Bioinformatics and Data-Intensive Science"
+			)}_${nodesMap.get("Uganda")}`,
+			source: nodesMap.get(
+				"African Centers for Excellence in Bioinformatics and Data-Intensive Science"
+			),
+			target: nodesMap.get("Uganda"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"African Centers for Excellence in Bioinformatics and Data-Intensive Science"
+			)}_${nodesMap.get("Mali")}`,
+			source: nodesMap.get(
+				"African Centers for Excellence in Bioinformatics and Data-Intensive Science"
+			),
+			target: nodesMap.get("Mali"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Ilifu Cloud computing facility"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("Ilifu Cloud computing facility"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Ilifu Cloud computing facility"
+			)}_${nodesMap.get("South Africa")}`,
+			source: nodesMap.get("Ilifu Cloud computing facility"),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("REDCap Africa")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("REDCap Africa"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("REDCap Africa")}_${nodesMap.get(
+				"South Africa"
+			)}`,
+			source: nodesMap.get("REDCap Africa"),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("SisonkeBiotik")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("SisonkeBiotik"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("SisonkeBiotik")}_${nodesMap.get(
+				"South Africa"
+			)}`,
+			source: nodesMap.get("SisonkeBiotik"),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("African Open Science Platform")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("African Open Science Platform"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("African Open Science Platform")}_${nodesMap.get(
+				"South Africa"
+			)}`,
+			source: nodesMap.get("African Open Science Platform"),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Observational Health Data Sciences and Informatics"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get(
+				"Observational Health Data Sciences and Informatics"
+			),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Observational Health Data Sciences and Informatics"
+			)}_${nodesMap.get("United States of America")}`,
+			source: nodesMap.get(
+				"Observational Health Data Sciences and Informatics"
+			),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Global Alliance for Genomics & Health"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get("Global Alliance for Genomics & Health"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Global Alliance for Genomics & Health"
+			)}_${nodesMap.get("Canada")}`,
+			source: nodesMap.get("Global Alliance for Genomics & Health"),
+			target: nodesMap.get("Canada"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("The Global Health Network")}_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}`,
+			source: nodesMap.get("The Global Health Network"),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("The Global Health Network")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("The Global Health Network"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get("Broad Institute")}_${nodesMap.get(
 				"eLwazi (Open Data Science Platform)"
 			)}`,

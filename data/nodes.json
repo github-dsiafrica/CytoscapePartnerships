@@ -606,5 +606,93 @@
 			"label": "Broad Institute",
 			"id": "by"
 		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "TGHN",
+			"label": "The Global Health Network",
+			"id": "bz"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "GA4GH",
+			"label": "Global Alliance for Genomics & Health",
+			"id": "ca"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "CAN",
+			"label": "Canada",
+			"id": "cb"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "OHDSI",
+			"label": "Observational Health Data Sciences and Informatics",
+			"id": "cc"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "AOSP",
+			"label": "African Open Science Platform",
+			"id": "cd"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "SisonkeBiotik",
+			"label": "SisonkeBiotik",
+			"id": "ce"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "REDCap",
+			"label": "REDCap Africa",
+			"id": "cf"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Ilifu",
+			"label": "Ilifu Cloud computing facility",
+			"id": "cg"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "ACE",
+			"label": "African Centers for Excellence in Bioinformatics and Data-Intensive Science",
+			"id": "ch"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "HPRC",
+			"label": "Human Pangenome Reference Consortium",
+			"id": "ci"
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "AfricaBP",
+			"label": "African Biogenome Project",
+			"id": "cj"
+		}
 	}
 ]
