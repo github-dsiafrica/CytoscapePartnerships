@@ -12,6 +12,15 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get(
+				"University of the Western Cape"
+			)}_${nodesMap.get("South Africa")}`,
+			source: nodesMap.get("University of the Western Cape"),
+			target: nodesMap.get("South Africa"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get("Stellenbosch University")}_${nodesMap.get(
 				"eLwazi (Open Data Science Platform)"
 			)}`,
