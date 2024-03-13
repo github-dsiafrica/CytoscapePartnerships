@@ -215,6 +215,7 @@ h1 {
 	position: absolute;
 	bottom: 1rem;
 	right: 1rem;
+	z-index: 10;
 }
 
 .legend {
