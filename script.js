@@ -20,8 +20,10 @@ const cy = cytoscape({
 			selector: "node",
 			style: {
 				"background-color": "#ff0000",
-				label: "data(short_name)",
+				label: "data(label)",
 				"font-family": "Futura Std Book, sans-serif",
+				width: 40,
+				height: 40,
 			},
 		},
 		{
@@ -91,6 +93,12 @@ const cy = cytoscape({
 			selector: 'node[group="external-partner"]',
 			style: {
 				"background-color": "pink",
+			},
+		},
+		{
+			selector: 'node[group="continent"]',
+			style: {
+				"background-color": "black",
 			},
 		},
 		{
