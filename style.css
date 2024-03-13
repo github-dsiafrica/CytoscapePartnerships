@@ -193,6 +193,30 @@ h1 {
 	z-index: 10;
 }
 
+#export {
+	position: absolute;
+	top: 3rem;
+	right: 2rem;
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	z-index: 10;
+}
+
+#position {
+	position: absolute;
+	top: 5rem;
+	right: 2rem;
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	z-index: 10;
+}
+
+#png {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+}
+
 .legend {
 	position: absolute;
 	right: 2rem;

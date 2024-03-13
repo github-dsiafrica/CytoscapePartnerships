@@ -22,15 +22,16 @@ const cy = cytoscape({
 				"background-color": "#ff0000",
 				label: "data(label)",
 				"font-family": "Futura Std Book, sans-serif",
-				width: 40,
-				height: 40,
+				"font-weight": "bold",
+				width: 80,
+				height: 80,
 			},
 		},
 		{
 			selector: "edge",
 			style: {
 				width: 3,
-				"line-color": "#ccc",
+				"line-color": "black",
 				"target-arrow-color": "#333",
 				"curve-style": "unbundled-bezier",
 			},
@@ -111,7 +112,7 @@ const cy = cytoscape({
 	],
 
 	layout: {
-		name: "cose-bilkent",
+		name: "preset",
 		nodeDimensionsIncludeLabels: true, // Consider node labels in node dimensions
 		padding: 30, // Add padding around the graph
 	},
@@ -162,4 +163,29 @@ cy.on("mouseout", "node", (event) => {
 
 document.getElementById("fit").addEventListener("click", () => {
 	cy.fit();
+});
+
+document.getElementById("export").addEventListener("click", () => {
+	const png64 = cy.png({ bg: "white", full: true });
+
+	document.querySelector("#png").setAttribute("src", png64);
+});
+
+document.getElementById("position").addEventListener("click", () => {
+	const nodesDataWithPositions = nodes.map((node) => {
+		const nodeId = node.data.id;
+		const position = cy.$(`#${nodeId}`).position();
+		return {
+			...node,
+			data: {
+				...node.data,
+			},
+			position: {
+				x: position.x,
+				y: position.y,
+			},
+		};
+	});
+
+	console.log(nodesDataWithPositions);
 });
