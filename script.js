@@ -23,15 +23,16 @@ const cy = cytoscape({
 				label: "data(label)",
 				"font-family": "Futura Std Book, sans-serif",
 				"font-weight": "bold",
-				width: 80,
-				height: 80,
+				"font-size": "50rem",
+				width: 90,
+				height: 90,
 			},
 		},
 		{
 			selector: "edge",
 			style: {
 				width: 3,
-				"line-color": "black",
+				"line-color": "grey",
 				"target-arrow-color": "#333",
 				"curve-style": "unbundled-bezier",
 			},
@@ -100,13 +101,6 @@ const cy = cytoscape({
 			selector: 'node[group="continent"]',
 			style: {
 				"background-color": "black",
-			},
-		},
-		{
-			selector: "label",
-			style: {
-				"text-outline-color": "white",
-				"font-size": 30,
 			},
 		},
 	],
