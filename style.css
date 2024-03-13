@@ -251,5 +251,8 @@ h1 {
 	background: purple;
 }
 .legend li:nth-child(9) div {
+	background: black;
+}
+.legend li:nth-child(10) div {
 	background: pink;
 }

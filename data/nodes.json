@@ -697,7 +697,7 @@
 	},
 	{
 		"data": {
-			"group": "country",
+			"group": "continent",
 			"short_name": "Africa",
 			"label": "Africa",
 			"id": "ck"
