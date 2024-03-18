@@ -113,15 +113,15 @@ export const edges = [
 			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
 		},
 	},
-	{
-		data: {
-			id: `edge_${nodesMap.get("African Biogenome Project")}_${nodesMap.get(
-				"Africa"
-			)}`,
-			source: nodesMap.get("African Biogenome Project"),
-			target: nodesMap.get("Africa"),
-		},
-	},
+	// {
+	// 	data: {
+	// 		id: `edge_${nodesMap.get("African Biogenome Project")}_${nodesMap.get(
+	// 			"Africa"
+	// 		)}`,
+	// 		source: nodesMap.get("African Biogenome Project"),
+	// 		target: nodesMap.get("Africa"),
+	// 	},
+	// },
 	{
 		data: {
 			id: `edge_${nodesMap.get(
@@ -200,13 +200,13 @@ export const edges = [
 			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
 		},
 	},
-	{
-		data: {
-			id: `edge_${nodesMap.get("REDCap Africa")}_${nodesMap.get("Africa")}`,
-			source: nodesMap.get("REDCap Africa"),
-			target: nodesMap.get("Africa"),
-		},
-	},
+	// {
+	// 	data: {
+	// 		id: `edge_${nodesMap.get("REDCap Africa")}_${nodesMap.get("Africa")}`,
+	// 		source: nodesMap.get("REDCap Africa"),
+	// 		target: nodesMap.get("Africa"),
+	// 	},
+	// },
 	{
 		data: {
 			id: `edge_${nodesMap.get("SisonkeBiotik")}_${nodesMap.get(
