@@ -164,6 +164,33 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("IndabaX")}_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}`,
+			source: nodesMap.get("IndabaX"),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Data Science Africa")}_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}`,
+			source: nodesMap.get("Data Science Africa"),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("SisonkeBiotik")}_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}`,
+			source: nodesMap.get("SisonkeBiotik"),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"African Centers for Excellence in Bioinformatics and Data-Intensive Science"
 			)}_${nodesMap.get("Mali")}`,

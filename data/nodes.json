@@ -1090,5 +1090,29 @@
 			"x": 774.0493094008657,
 			"y": 456.0721558629244
 		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "DSA",
+			"label": "Data Science Africa",
+			"id": "co"
+		},
+		"position": {
+			"x": 5570.889057735908,
+			"y": 3210.4111200401444
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "IndabaX",
+			"label": "IndabaX",
+			"id": "cp"
+		},
+		"position": {
+			"x": 5115.711571456691,
+			"y": 3013.0332720075635
+		}
 	}
 ]
