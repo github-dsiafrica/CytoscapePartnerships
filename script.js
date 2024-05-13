@@ -31,7 +31,7 @@ const cy = cytoscape({
 		{
 			selector: "edge",
 			style: {
-				width: 3,
+				width: 7,
 				"line-color": "grey",
 				"target-arrow-color": "#333",
 				"curve-style": "unbundled-bezier",
