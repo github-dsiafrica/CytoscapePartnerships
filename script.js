@@ -134,8 +134,8 @@ cy.on("tap", "node", function (event) {
 
 	if (isHighlighted) {
 		// If edges are already highlighted, unhighlight them
-		connectedEdges.style("width", "3");
-		connectedEdges.style("line-color", "#ccc");
+		connectedEdges.style("width", "7");
+		connectedEdges.style("line-color", "grey");
 		isHighlighted = false;
 	} else {
 		// If edges are not highlighted, highlight them
