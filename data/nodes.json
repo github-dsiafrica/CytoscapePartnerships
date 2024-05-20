@@ -1114,5 +1114,37 @@
 			"x": 5115.711571456691,
 			"y": 3013.0332720075635
 		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "ETH",
+			"label": "Ethiopia",
+			"id": "cq"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "ZWE",
+			"label": "Zimbabwe",
+			"id": "cr"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "CIV",
+			"label": "Côte d'Ivoire",
+			"id": "cs"
+		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "BFA",
+			"label": "Burkina Faso",
+			"id": "ct"
+		}
 	}
 ]

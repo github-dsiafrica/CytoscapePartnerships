@@ -506,6 +506,39 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("Kenya")}_${nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			)}`,
+			source: nodesMap.get("Kenya"),
+			target: nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Burkina Faso")}_${nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			)}`,
+			source: nodesMap.get("Burkina Faso"),
+			target: nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Ghana")}_${nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			)}`,
+			source: nodesMap.get("Ghana"),
+			target: nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"eLwazi (Open Data Science Platform)"
 			)}_${nodesMap.get(
@@ -709,6 +742,28 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Rwanda")}_${nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			)}`,
+			source: nodesMap.get("Rwanda"),
+			target: nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
 			)}_${nodesMap.get("Redeemer's University")}`,
@@ -735,6 +790,39 @@ export const edges = [
 				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Zimbabwe")}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get("Zimbabwe"),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Côte d'Ivoire")}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get("Côte d'Ivoire"),
 			target: nodesMap.get(
 				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
 			),
@@ -799,6 +887,28 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("South Africa")}_${nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			)}`,
+			source: nodesMap.get("South Africa"),
+			target: nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
 			)}_${nodesMap.get("University of Buea")}`,
@@ -856,6 +966,17 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
 			)}_${nodesMap.get("Kwame Nkrumah University of Science & Technology")}`,
@@ -882,6 +1003,28 @@ export const edges = [
 				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Kenya")}_${nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			)}`,
+			source: nodesMap.get("Kenya"),
+			target: nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Ethiopia")}_${nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			)}`,
+			source: nodesMap.get("Ethiopia"),
 			target: nodesMap.get(
 				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
 			),
@@ -988,6 +1131,17 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("Kenya")}_${nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			)}`,
+			source: nodesMap.get("Kenya"),
+			target: nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"NYU-Moi Data Science for Social Determinants Training Program"
 			)}_${nodesMap.get("New York University")}`,
@@ -1014,6 +1168,28 @@ export const edges = [
 				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Ghana")}_${nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+			)}`,
+			source: nodesMap.get("Ghana"),
 			target: nodesMap.get(
 				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
 			),
@@ -1083,6 +1259,22 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("Kenya")}_${nodesMap.get("DS-I Africa - LAW")}`,
+			source: nodesMap.get("Kenya"),
+			target: nodesMap.get("DS-I Africa - LAW"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Nigeria")}_${nodesMap.get(
+				"DS-I Africa - LAW"
+			)}`,
+			source: nodesMap.get("Nigeria"),
+			target: nodesMap.get("DS-I Africa - LAW"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get("DS-I Africa - LAW")}_${nodesMap.get(
 				"University of KwaZulu-Natal"
 			)}`,
@@ -1107,6 +1299,17 @@ export const edges = [
 				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
+			)}`,
+			source: nodesMap.get("United States of America"),
 			target: nodesMap.get(
 				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
 			),
