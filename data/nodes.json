@@ -38,7 +38,7 @@
 	{
 		"data": {
 			"group": "research",
-			"short_name": "Artificial Intelligence assisted echocardiography to facilitate optimal image extraction for congenital heart defects diagnosis in Sub-Saharan Africa",
+			"short_name": "CHD AI",
 			"label": "Artificial Intelligence assisted echocardiography to facilitate optimal image extraction for congenital heart defects diagnosis in Sub-Saharan Africa",
 			"id": "d"
 		},
@@ -50,7 +50,7 @@
 	{
 		"data": {
 			"group": "research",
-			"short_name": "Automated Mobile Microscopy for Malaria Diagnosis and surveillance in Uganda",
+			"short_name": "DS-I Malaria",
 			"label": "Automated Mobile Microscopy for Malaria Diagnosis and surveillance in Uganda",
 			"id": "e"
 		},
@@ -121,7 +121,7 @@
 	},
 	{
 		"data": {
-			"group": "",
+			"group": "research_education",
 			"short_name": "DATICAN",
 			"label": "Data Science and Medical Image Analysis Training for Improved Health Care Delivery in Nigeria (DATICAN)",
 			"id": "k"
@@ -181,7 +181,7 @@
 	},
 	{
 		"data": {
-			"group": "",
+			"group": "research",
 			"short_name": "DSpace",
 			"label": "DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV",
 			"id": "p"
@@ -206,7 +206,7 @@
 	{
 		"data": {
 			"group": "research_education",
-			"short_name": "Eneza",
+			"short_name": "ENEZA",
 			"label": "Eneza Data Science: Enhancing Data Science Capability and Tools for Health in East Africa",
 			"id": "r"
 		},
@@ -218,7 +218,7 @@
 	{
 		"data": {
 			"group": "research",
-			"short_name": "Genome-wide characterization of complex variants and their phenotypic effects in African populations",
+			"short_name": "GCAP",
 			"label": "Genome-wide characterization of complex variants and their phenotypic effects in African populations",
 			"id": "s"
 		},
@@ -290,7 +290,7 @@
 	{
 		"data": {
 			"group": "research",
-			"short_name": "LAMCA",
+			"short_name": "",
 			"label": "Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa",
 			"id": "y"
 		},
@@ -327,7 +327,7 @@
 		"data": {
 			"group": "training",
 			"short_name": "MakDARTA",
-			"label": "Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation",
+			"label": "Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)",
 			"id": "ab"
 		},
 		"position": {

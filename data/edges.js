@@ -164,11 +164,129 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get(
+				"Automated Mobile Microscopy for Malaria Diagnosis and surveillance in Uganda"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Automated Mobile Microscopy for Malaria Diagnosis and surveillance in Uganda"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Integrated modeLs for Early Risk-prediction in Africa (ILERA) study"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Integrated modeLs for Early Risk-prediction in Africa (ILERA) study"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Advancing discovery for developmental disorders - expanded analysis of the DDD-Africa resource (DDD-Africa)"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Advancing discovery for developmental disorders - expanded analysis of the DDD-Africa resource (DDD-Africa)"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"BCX-Africa: Utilizing data science to evaluate the applicability of blood cell traits polygenic risk scores for disease prediction in Africa"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"BCX-Africa: Utilizing data science to evaluate the applicability of blood cell traits polygenic risk scores for disease prediction in Africa"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Artificial Intelligence assisted echocardiography to facilitate optimal image extraction for congenital heart defects diagnosis in Sub-Saharan Africa"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Artificial Intelligence assisted echocardiography to facilitate optimal image extraction for congenital heart defects diagnosis in Sub-Saharan Africa"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Artificial Intelligence assisted echocardiography to facilitate optimal image extraction for congenital heart defects diagnosis in Sub-Saharan Africa"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get(
+				"Artificial Intelligence assisted echocardiography to facilitate optimal image extraction for congenital heart defects diagnosis in Sub-Saharan Africa"
+			),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Advancing discovery for developmental disorders - expanded analysis of the DDD-Africa resource (DDD-Africa)"
+			)}_${nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			)}`,
+			source: nodesMap.get(
+				"Advancing discovery for developmental disorders - expanded analysis of the DDD-Africa resource (DDD-Africa)"
+			),
+			target: nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get("IndabaX")}_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}`,
 			source: nodesMap.get("IndabaX"),
 			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get(
+				"DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV"
+			),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV"
+			)}_${nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
+			)}`,
+			source: nodesMap.get(
+				"DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV"
+			),
+			target: nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
+			),
 		},
 	},
 	{
@@ -577,11 +695,26 @@ export const edges = [
 			id: `edge_${nodesMap.get(
 				"eLwazi (Open Data Science Platform)"
 			)}_${nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			)}`,
 			source: nodesMap.get("eLwazi (Open Data Science Platform)"),
 			target: nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Tuberculosis in households with infectious cases in Kampala city: Harnessing health data science for new insights on TB transmission and treatment response (DS-IAFRICA-TB)"
+			)}_${nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
+			)}`,
+			source: nodesMap.get(
+				"Tuberculosis in households with infectious cases in Kampala city: Harnessing health data science for new insights on TB transmission and treatment response (DS-IAFRICA-TB)"
+			),
+			target: nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			),
 		},
 	},
@@ -595,6 +728,45 @@ export const edges = [
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
 			target: nodesMap.get(
 				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${nodesMap.get(
+				"INnovative data Science to Impact the TB Epidemic (INSITE)"
+			)}`,
+			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"INnovative data Science to Impact the TB Epidemic (INSITE)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${nodesMap.get(
+				"Leveraging Data Science Applications to Improve Children's Environmental Health in Sub-Saharan Africa (DICE Project)"
+			)}`,
+			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Leveraging Data Science Applications to Improve Children's Environmental Health in Sub-Saharan Africa (DICE Project)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${nodesMap.get(
+				"Genome-wide characterization of complex variants and their phenotypic effects in African populations"
+			)}`,
+			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Genome-wide characterization of complex variants and their phenotypic effects in African populations"
 			),
 		},
 	},
@@ -681,9 +853,29 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}_${nodesMap.get("MUST Data Science Research Hub (MUDSReH)")}`,
+			source: nodesMap.get("eLwazi (Open Data Science Platform)"),
+			target: nodesMap.get("MUST Data Science Research Hub (MUDSReH)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get("MUST Data Science Research Hub (MUDSReH)")}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get("MUST Data Science Research Hub (MUDSReH)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}_${nodesMap.get("MUST Data Science Research Hub (MUDSReH)")}`,
+			source: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
 			target: nodesMap.get("MUST Data Science Research Hub (MUDSReH)"),
 		},
 	},
@@ -746,6 +938,82 @@ export const edges = [
 				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("DS-I Africa - LAW")}_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}`,
+			source: nodesMap.get("DS-I Africa - LAW"),
+			target: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Eneza Data Science: Enhancing Data Science Capability and Tools for Health in East Africa"
+			)}_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}`,
+			source: nodesMap.get(
+				"Eneza Data Science: Enhancing Data Science Capability and Tools for Health in East Africa"
+			),
+			target: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Eneza Data Science: Enhancing Data Science Capability and Tools for Health in East Africa"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Eneza Data Science: Enhancing Data Science Capability and Tools for Health in East Africa"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa"
+			)}_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}`,
+			source: nodesMap.get(
+				"Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa"
+			),
+			target: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}`,
+			source: nodesMap.get("eLwazi (Open Data Science Platform)"),
 			target: nodesMap.get(
 				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
 			),
@@ -831,6 +1099,75 @@ export const edges = [
 			),
 			target: nodesMap.get(
 				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}_${nodesMap.get(
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
+			)}`,
+			source: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
+			target: nodesMap.get(
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"MUST Data Science Research Hub (MUDSReH)"
+			)}_${nodesMap.get(
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
+			)}`,
+			source: nodesMap.get("MUST Data Science Research Hub (MUDSReH)"),
+			target: nodesMap.get(
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}_${nodesMap.get("DS-I Africa - LAW")}`,
+			source: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
+			target: nodesMap.get("DS-I Africa - LAW"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}_${nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			)}`,
+			source: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
+			target: nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			)}_${nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			)}`,
+			source: nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			),
+			target: nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
 			),
 		},
 	},
@@ -971,6 +1308,28 @@ export const edges = [
 			target: nodesMap.get(
 				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
 			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"CHaracterizing Effects of Air Quality In Maternal, Newborn and Child Health: The CHEAQI-MNCH Research Project"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"CHaracterizing Effects of Air Quality In Maternal, Newborn and Child Health: The CHEAQI-MNCH Research Project"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"CHaracterizing Effects of Air Quality In Maternal, Newborn and Child Health: The CHEAQI-MNCH Research Project"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get(
+				"CHaracterizing Effects of Air Quality In Maternal, Newborn and Child Health: The CHEAQI-MNCH Research Project"
+			),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
 		},
 	},
 	{
@@ -1215,6 +1574,75 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			)}_${nodesMap.get(
+				"Growing Data-science Research in Africa to Stimulate Progress (GRASP)"
+			)}`,
+			source: nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			),
+			target: nodesMap.get(
+				"Growing Data-science Research in Africa to Stimulate Progress (GRASP)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Data Science and Medical Image Analysis Training for Improved Health Care Delivery in Nigeria (DATICAN)"
+			)}_${nodesMap.get(
+				"Growing Data-science Research in Africa to Stimulate Progress (GRASP)"
+			)}`,
+			source: nodesMap.get(
+				"Data Science and Medical Image Analysis Training for Improved Health Care Delivery in Nigeria (DATICAN)"
+			),
+			target: nodesMap.get(
+				"Growing Data-science Research in Africa to Stimulate Progress (GRASP)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Data Science and Medical Image Analysis Training for Improved Health Care Delivery in Nigeria (DATICAN)"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Data Science and Medical Image Analysis Training for Improved Health Care Delivery in Nigeria (DATICAN)"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${nodesMap.get(
+				"Growing Data-science Research in Africa to Stimulate Progress (GRASP)"
+			)}`,
+			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Growing Data-science Research in Africa to Stimulate Progress (GRASP)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			)}_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}`,
+			source: nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			),
+			target: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
 			)}_${nodesMap.get(
 				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
@@ -1277,6 +1705,36 @@ export const edges = [
 				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}_${nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			)}`,
+			source: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+			target: nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
+			)}_${nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			)}`,
+			source: nodesMap.get(
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
+			),
 			target: nodesMap.get(
 				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
 			),
@@ -1428,43 +1886,43 @@ export const edges = [
 			id: `edge_${nodesMap.get(
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
 			target: nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			),
 		},
 	},
 	{
 		data: {
 			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			)}`,
 			source: nodesMap.get("United States of America"),
 			target: nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			),
 		},
 	},
 	{
 		data: {
 			id: `edge_${nodesMap.get("Ghana")}_${nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			)}`,
 			source: nodesMap.get("Ghana"),
 			target: nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			),
 		},
 	},
 	{
 		data: {
 			id: `edge_${nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			)}_${nodesMap.get("Makerere University")}`,
 			source: nodesMap.get(
-				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation"
+				"Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)"
 			),
 			target: nodesMap.get("Makerere University"),
 		},
@@ -1647,6 +2105,47 @@ export const edges = [
 			),
 			target: nodesMap.get(
 				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			)}_${nodesMap.get("eLwazi (Open Data Science Platform)")}`,
+			source: nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			),
+			target: nodesMap.get("eLwazi (Open Data Science Platform)"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			)}_${nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			)}`,
+			source: nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			),
+			target: nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Geo-enabled detect and respond system for antimalarial resistance in Ghana: GDRS - Ghana"
+			)}_${nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			)}`,
+			source: nodesMap.get(
+				"Geo-enabled detect and respond system for antimalarial resistance in Ghana: GDRS - Ghana"
+			),
+			target: nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
 			),
 		},
 	},
