@@ -1146,5 +1146,13 @@
 			"label": "Burkina Faso",
 			"id": "ct"
 		}
+	},
+	{
+		"data": {
+			"group": "country",
+			"short_name": "TZA",
+			"label": "Tanzania",
+			"id": "cu"
+		}
 	}
 ]

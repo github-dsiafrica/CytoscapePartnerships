@@ -552,6 +552,28 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("South Africa")}_${nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			)}`,
+			source: nodesMap.get("South Africa"),
+			target: nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"eLwazi (Open Data Science Platform)"
 			)}_${nodesMap.get(
@@ -571,6 +593,39 @@ export const edges = [
 				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Cameroon")}_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}`,
+			source: nodesMap.get("Cameroon"),
+			target: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Ghana")}_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}`,
+			source: nodesMap.get("Ghana"),
+			target: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}`,
+			source: nodesMap.get("United States of America"),
 			target: nodesMap.get(
 				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
 			),
@@ -698,6 +753,17 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
 			)}_${nodesMap.get("Aga Khan University")}`,
@@ -735,6 +801,34 @@ export const edges = [
 				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}_${nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			)}`,
+			source: nodesMap.get("eLwazi (Open Data Science Platform)"),
+			target: nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			)}_${nodesMap.get(
+				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
+			)}`,
+			source: nodesMap.get(
+				"Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)"
+			),
 			target: nodesMap.get(
 				"Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)"
 			),
@@ -790,6 +884,90 @@ export const edges = [
 				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("DS-I Africa - LAW")}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get("DS-I Africa - LAW"),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get("eLwazi (Open Data Science Platform)"),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			)}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get(
+				"Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa"
+			),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			)}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			),
+			target: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"CHaracterizing Effects of Air Quality In Maternal, Newborn and Child Health: The CHEAQI-MNCH Research Project"
+			)}_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}`,
+			source: nodesMap.get(
+				"CHaracterizing Effects of Air Quality In Maternal, Newborn and Child Health: The CHEAQI-MNCH Research Project"
+			),
 			target: nodesMap.get(
 				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
 			),
@@ -942,6 +1120,17 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Computational Omics and Biomedical Informatics Program (COBIP)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"Computational Omics and Biomedical Informatics Program (COBIP)"
 			)}_${nodesMap.get("University of Cape Town")}`,
@@ -1010,6 +1199,36 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			)}_${nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			)}`,
+			source: nodesMap.get(
+				"NYU-Moi Data Science for Social Determinants Training Program"
+			),
+			target: nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			)}_${nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			)}`,
+			source: nodesMap.get(
+				"Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)"
+			),
+			target: nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get("Kenya")}_${nodesMap.get(
 				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
 			)}`,
@@ -1058,6 +1277,50 @@ export const edges = [
 				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("South Africa")}_${nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			)}`,
+			source: nodesMap.get("South Africa"),
+			target: nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Uganda")}_${nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			)}`,
+			source: nodesMap.get("Uganda"),
+			target: nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Tanzania")}_${nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			)}`,
+			source: nodesMap.get("Tanzania"),
+			target: nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Nigeria")}_${nodesMap.get(
+				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
+			)}`,
+			source: nodesMap.get("Nigeria"),
 			target: nodesMap.get(
 				"Research Training on Harnessing Data Science for Global Health Priorities in Africa"
 			),
@@ -1230,6 +1493,39 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Zimbabwe")}_${nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			)}`,
+			source: nodesMap.get("Zimbabwe"),
+			target: nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Kenya")}_${nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			)}`,
+			source: nodesMap.get("Kenya"),
+			target: nodesMap.get(
+				"Research for Ethical Data Science in Southern Africa (REDSSA)"
+			),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"Research for Ethical Data Science in Southern Africa (REDSSA)"
 			)}_${nodesMap.get("Stellenbosch University")}`,
@@ -1254,6 +1550,26 @@ export const edges = [
 				"DS-I Africa Coordinating Center"
 			)}_${nodesMap.get("DS-I Africa - LAW")}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get("DS-I Africa - LAW"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"eLwazi (Open Data Science Platform)"
+			)}_${nodesMap.get("DS-I Africa - LAW")}`,
+			source: nodesMap.get("eLwazi (Open Data Science Platform)"),
+			target: nodesMap.get("DS-I Africa - LAW"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			)}_${nodesMap.get("DS-I Africa - LAW")}`,
+			source: nodesMap.get(
+				"MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)"
+			),
 			target: nodesMap.get("DS-I Africa - LAW"),
 		},
 	},
@@ -1299,6 +1615,36 @@ export const edges = [
 				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
 			)}`,
 			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get(
+				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			)}_${nodesMap.get(
+				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
+			)}`,
+			source: nodesMap.get(
+				"UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science"
+			),
+			target: nodesMap.get(
+				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			)}_${nodesMap.get(
+				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
+			)}`,
+			source: nodesMap.get(
+				"Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)"
+			),
 			target: nodesMap.get(
 				"Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)"
 			),
