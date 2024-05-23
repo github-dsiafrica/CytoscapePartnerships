@@ -24,6 +24,8 @@ const cy = cytoscape({
 				"font-family": "Futura Std Book, sans-serif",
 				"font-weight": "bold",
 				"font-size": "50rem",
+				"text-outline-color": "skyblue",
+				"text-outline-width": "2px",
 				width: 90,
 				height: 90,
 			},
