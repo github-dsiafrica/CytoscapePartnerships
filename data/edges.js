@@ -176,6 +176,17 @@ export const edges = [
 	{
 		data: {
 			id: `edge_${nodesMap.get(
+				"Application of Data Science to Build Research Capacity in Zoonoses and Foodborne Infections in West Africa (DS-ZOOFOOD)"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"Application of Data Science to Build Research Capacity in Zoonoses and Foodborne Infections in West Africa (DS-ZOOFOOD)"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
 				"Integrated modeLs for Early Risk-prediction in Africa (ILERA) study"
 			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
 			source: nodesMap.get(
@@ -976,6 +987,28 @@ export const edges = [
 			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
 			source: nodesMap.get(
 				"Eneza Data Science: Enhancing Data Science Capability and Tools for Health in East Africa"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"SYNthetic Healthcare DAta Platform for Data SciEnce Training ('SYNAPSE')"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"SYNthetic Healthcare DAta Platform for Data SciEnce Training ('SYNAPSE')"
+			),
+			target: nodesMap.get("DS-I Africa Coordinating Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"West Africa Center of Excellence for Data Science Research Education"
+			)}_${nodesMap.get("DS-I Africa Coordinating Center")}`,
+			source: nodesMap.get(
+				"West Africa Center of Excellence for Data Science Research Education"
 			),
 			target: nodesMap.get("DS-I Africa Coordinating Center"),
 		},
