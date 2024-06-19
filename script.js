@@ -1,4 +1,5 @@
 import cytoscape from "cytoscape";
+import { saveAs } from "file-saver";
 
 import nodes from "./data/nodes.json";
 import { edges } from "./data/edges";
@@ -239,10 +240,13 @@ document.getElementById("fit").addEventListener("click", () => {
 	cy.fit();
 });
 
-document.getElementById("export").addEventListener("click", () => {
-	const png64 = cy.png({ bg: "white", full: true });
-
-	document.querySelector("#png").setAttribute("src", png64);
+document.getElementById("export").addEventListener("click", async () => {
+	const blob = await cy.png({
+		bg: "white",
+		full: true,
+		output: "blob-promise",
+	});
+	saveAs(blob, "graph.png");
 });
 
 document.getElementById("position").addEventListener("click", () => {

@@ -9,11 +9,13 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"@types/file-saver": "^2.0.7",
 		"vite": "^4.2.0"
 	},
 	"dependencies": {
 		"cytoscape": "^3.23.0",
 		"cytoscape-cose-bilkent": "^4.1.0",
-		"cytoscape-layers": "^2.4.2"
+		"cytoscape-layers": "^2.4.2",
+		"file-saver": "^2.0.5"
 	}
 }
