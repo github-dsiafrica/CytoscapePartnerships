@@ -161,8 +161,8 @@ cy.on("tap", "node", function (event) {
 		isHighlighted = false;
 	} else {
 		// If edges are not highlighted, highlight them
-		connectedEdges.style("width", "8");
-		connectedEdges.style("line-color", "#286090");
+		connectedEdges.style("width", "12");
+		connectedEdges.style("line-color", "black");
 		isHighlighted = true;
 	}
 });
