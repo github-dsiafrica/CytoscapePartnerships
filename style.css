@@ -167,12 +167,12 @@
 }
 
 :root {
-	--elsi: red;
-	--hubs: green;
-	--training: orange;
-	--elwazicc: blue;
-	--research: skyblue;
-	--education: grey;
+	--elsi: #f20505;
+	--hubs: #0778a6;
+	--training: green;
+	--elwazicc: #58595b;
+	--research: #62aac7;
+	--education: #ffd700;
 	--institution: lightgreen;
 	--country: purple;
 	--external: pink;
