@@ -16,7 +16,6 @@ const cy = cytoscape({
 		{
 			selector: "node",
 			style: {
-				"background-color": "orange",
 				label: "data(label)",
 				"font-family": "Futura Std Book, sans-serif",
 				"font-weight": "bold",
@@ -104,6 +103,72 @@ const cy = cytoscape({
 		},
 		{
 			selector: 'node[id="continent"]',
+			style: {
+				"background-color": "black",
+			},
+		},
+		{
+			selector: 'node[group="elsi"]',
+			style: {
+				"background-color": "red",
+			},
+		},
+		{
+			selector: 'node[group="research"]',
+			style: {
+				"background-color": "skyblue",
+			},
+		},
+		{
+			selector: 'node[group="research_hub"]',
+			style: {
+				"background-color": "green",
+			},
+		},
+		{
+			selector: 'node[group="training"]',
+			style: {
+				"background-color": "orange",
+			},
+		},
+		{
+			selector: 'node[group="research_education"]',
+			style: {
+				"background-color": "grey",
+			},
+		},
+		{
+			selector: 'node[group="elwazi"]',
+			style: {
+				"background-color": "blue",
+			},
+		},
+		{
+			selector: 'node[group="cc"]',
+			style: {
+				"background-color": "blue",
+			},
+		},
+		{
+			selector: 'node[group="institution"]',
+			style: {
+				"background-color": "lightgreen",
+			},
+		},
+		{
+			selector: 'node[group="country"]',
+			style: {
+				"background-color": "purple",
+			},
+		},
+		{
+			selector: 'node[group="external-partner"]',
+			style: {
+				"background-color": "pink",
+			},
+		},
+		{
+			selector: 'node[group="continent"]',
 			style: {
 				"background-color": "black",
 			},
