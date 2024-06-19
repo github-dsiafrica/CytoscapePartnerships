@@ -1242,19 +1242,6 @@
 	},
 	{
 		"data": {
-			"group": "continent",
-			"short_name": "Africa",
-			"label": "Africa",
-			"id": "ck"
-		},
-		"position": {
-			"x": 1069.3409401369775,
-			"y": 4857.355694085542
-		},
-		"group": "nodes"
-	},
-	{
-		"data": {
 			"group": "external-partner",
 			"short_name": "Theiagen",
 			"label": "Theiagen Genomics",

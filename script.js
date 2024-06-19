@@ -102,12 +102,6 @@ const cy = cytoscape({
 			},
 		},
 		{
-			selector: 'node[id="continent"]',
-			style: {
-				"background-color": "black",
-			},
-		},
-		{
 			selector: 'node[group="elsi"]',
 			style: {
 				"background-color": "red",
@@ -165,12 +159,6 @@ const cy = cytoscape({
 			selector: 'node[group="external-partner"]',
 			style: {
 				"background-color": "pink",
-			},
-		},
-		{
-			selector: 'node[group="continent"]',
-			style: {
-				"background-color": "black",
 			},
 		},
 	],
