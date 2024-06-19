@@ -132,16 +132,6 @@ const cy = cytoscape({
 		nodeDimensionsIncludeLabels: true, // Consider node labels in node dimensions
 		padding: 30, // Add padding around the graph
 	},
-	ready: function (e) {
-		const cy = e.cy;
-
-		// Filter to select nodes with edges
-		// cy.nodes().forEach(function (node) {
-		// 	if (node.connectedEdges().length === 0) {
-		// 		node.style("display", "none"); // Hide nodes without edges
-		// 	}
-		// });
-	},
 });
 
 // Use a variable to track the highlight state
@@ -167,20 +157,12 @@ cy.on("tap", "node", function (event) {
 	}
 });
 
-cy.on("mouseover", "node", (event) => {
-	const node = event.target;
-	node.style("label", node.data("label"));
-});
-
-cy.on("mouseout", "node", (event) => {
-	const node = event.target;
-	node.style("label", ""); // Hide the label on mouseout
-});
-
+// Add event listener to fit the graph to the container.
 document.getElementById("fit").addEventListener("click", () => {
 	cy.fit();
 });
 
+// Add event listener to export the graph as a PNG image.
 document.getElementById("export").addEventListener("click", async () => {
 	const blob = await cy.png({
 		bg: "white",
@@ -190,6 +172,7 @@ document.getElementById("export").addEventListener("click", async () => {
 	saveAs(blob, "graph.png");
 });
 
+// Add event listener to log the position of the nodes to the console.
 document.getElementById("position").addEventListener("click", () => {
 	const nodesDataWithPositions = nodes.map((node) => {
 		const nodeId = node.data.id;
