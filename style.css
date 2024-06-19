@@ -166,6 +166,18 @@
 	padding: 0;
 }
 
+:root {
+	--elsi: red;
+	--hubs: green;
+	--training: orange;
+	--elwazicc: blue;
+	--research: skyblue;
+	--education: grey;
+	--institution: lightgreen;
+	--country: purple;
+	--institution: pink;
+}
+
 body {
 	font-family: "Futura Std Book", sans-serif;
 	font-weight: 900 !important;
@@ -182,7 +194,6 @@ h1 {
 	width: 100vw;
 	height: 100vh;
 	display: block;
-	outline: 5px solid firebrick;
 }
 
 #fit {
@@ -255,29 +266,29 @@ h1 {
 }
 
 .legend li:nth-child(1) div {
-	background: red;
+	background: var(--elsi);
 }
 .legend li:nth-child(2) div {
-	background: green;
+	background: var(--hubs);
 }
 .legend li:nth-child(3) div {
-	background: orange;
+	background: var(--training);
 }
 .legend li:nth-child(4) div {
-	background: blue;
+	background: var(--elwazicc);
 }
 .legend li:nth-child(5) div {
-	background: skyblue;
+	background: var(--research);
 }
 .legend li:nth-child(6) div {
-	background: grey;
+	background: var(--education);
 }
 .legend li:nth-child(7) div {
-	background: lightgreen;
+	background: var(--institution);
 }
 .legend li:nth-child(8) div {
-	background: purple;
+	background: var(--country);
 }
 .legend li:nth-child(9) div {
-	background: pink;
+	background: var(--institution);
 }
