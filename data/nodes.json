@@ -1,22 +1,94 @@
 [
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
-			"short_name": "DDD-Africa",
-			"label": "Advancing discovery for developmental disorders - expanded analysis of the DDD-Africa resource (DDD-Africa)",
-			"id": "a"
+			"id": "research"
 		},
 		"position": {
-			"x": 10379.80801414796,
-			"y": 525.6385555573855
+			"x": 12395.600269673367,
+			"y": 757.1174583022446
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "training",
+			"id": "elsi"
+		},
+		"position": {
+			"x": 9119.100909560344,
+			"y": -1669.3570533486522
+		}
+	},
+	{
+		"group": "nodes",
+		"data": {
+			"id": "research_hub"
+		},
+		"position": {
+			"x": 316.2492451379185,
+			"y": 1909.6785414837545
+		}
+	},
+	{
+		"group": "nodes",
+		"data": {
+			"id": "elwazi"
+		},
+		"position": {
+			"x": 4136.633053888862,
+			"y": 1528.124448555782
+		}
+	},
+	{
+		"group": "nodes",
+		"data": {
+			"id": "cc"
+		},
+		"position": {
+			"x": 5667.040312776229,
+			"y": 1522.3390340556225
+		}
+	},
+	{
+		"group": "nodes",
+		"data": {
+			"id": "research_education"
+		},
+		"position": {
+			"x": 6117.037554933792,
+			"y": 2926.9025471731934
+		}
+	},
+	{
+		"group": "nodes",
+		"data": {
+			"id": "training"
+		},
+		"position": {
+			"x": 4746.779252151788,
+			"y": -80.07416839940038
+		}
+	},
+	{
+		"group": "nodes",
+		"data": {
+			"short_name": "DDD-Africa",
+			"label": "Advancing discovery for developmental disorders - expanded analysis of the DDD-Africa resource (DDD-Africa)",
+			"id": "a",
+			"parent": "research"
+		},
+		"position": {
+			"x": 12757.016024784289,
+			"y": 600.259434815028
+		}
+	},
+	{
+		"group": "nodes",
+		"data": {
 			"short_name": "APHREA-DST",
 			"label": "Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)",
-			"id": "b"
+			"id": "b",
+			"parent": "training"
 		},
 		"position": {
 			"x": 5366.937065462285,
@@ -24,95 +96,103 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_education",
 			"short_name": "DS-ZOOFOOD",
 			"label": "Application of Data Science to Build Research Capacity in Zoonoses and Foodborne Infections in West Africa (DS-ZOOFOOD)",
-			"id": "c"
+			"id": "c",
+			"parent": "research_education"
 		},
 		"position": {
-			"x": 5782.013360142187,
-			"y": 3133.3841044324513
+			"x": 5867.294365008064,
+			"y": 3506.488500720664
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "CHD AI",
 			"label": "Artificial Intelligence assisted echocardiography to facilitate optimal image extraction for congenital heart defects diagnosis in Sub-Saharan Africa",
-			"id": "d"
+			"id": "d",
+			"parent": "research"
 		},
 		"position": {
-			"x": 10223.621882143223,
-			"y": 2056.9906324032495
+			"x": 12600.829892779551,
+			"y": 2131.6115116608917
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "DS-I Malaria",
 			"label": "Automated Mobile Microscopy for Malaria Diagnosis and surveillance in Uganda",
-			"id": "e"
+			"id": "e",
+			"parent": "research"
 		},
 		"position": {
-			"x": 8395.556484168077,
-			"y": 1858.0196875879076
+			"x": 10772.764494804405,
+			"y": 1932.6405668455502
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "BCX-Africa",
 			"label": "BCX-Africa: Utilizing data science to evaluate the applicability of blood cell traits polygenic risk scores for disease prediction in Africa",
-			"id": "f"
+			"id": "f",
+			"parent": "research"
 		},
 		"position": {
-			"x": 7726.353316044001,
-			"y": 923.1203877994442
+			"x": 10103.561326680328,
+			"y": 997.7412670570866
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "elsi",
 			"short_name": "BridgELSI",
 			"label": "Bridging Gaps in the ELSI of Data Science Health Research in Nigeria (BridgELSI)",
-			"id": "g"
+			"id": "g",
+			"parent": "elsi"
 		},
 		"position": {
-			"x": 7263.665499952815,
-			"y": -1584.447413361832
+			"x": 8638.821703415084,
+			"y": -1147.3822634242117
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "CHEAQI-MNCH",
 			"label": "CHaracterizing Effects of Air Quality In Maternal, Newborn and Child Health: The CHEAQI-MNCH Research Project",
-			"id": "h"
+			"id": "h",
+			"parent": "research"
 		},
 		"position": {
-			"x": 8072.4633727018945,
-			"y": 1656.1346168440402
+			"x": 10449.671383338224,
+			"y": 1730.7554961016829
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_hub",
 			"short_name": "CAMRA",
 			"label": "Combatting AntiMicrobial Resistance in Africa Using Data Science (CAMRA)",
-			"id": "i"
+			"id": "i",
+			"parent": "research_hub"
 		},
 		"position": {
-			"x": 1708.6514040189434,
-			"y": 3594.6665361985174
+			"x": 365.47557738137834,
+			"y": 2805.817241189152
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "training",
 			"short_name": "COBIP",
 			"label": "Computational Omics and Biomedical Informatics Program (COBIP)",
-			"id": "j"
+			"id": "j",
+			"parent": "training"
 		},
 		"position": {
 			"x": 4751.701522964037,
@@ -120,23 +200,25 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_education",
 			"short_name": "DATICAN",
 			"label": "Data Science and Medical Image Analysis Training for Improved Health Care Delivery in Nigeria (DATICAN)",
-			"id": "k"
+			"id": "k",
+			"parent": "research_education"
 		},
 		"position": {
-			"x": 6958.149715398669,
-			"y": 2619.7689198319
+			"x": 7043.430720264547,
+			"y": 2992.8733161201126
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "training",
 			"short_name": "DS-CHANGE",
 			"label": "Data Science for Child Health Now in Ghana (DS-CHANGE)",
-			"id": "l"
+			"id": "l",
+			"parent": "training"
 		},
 		"position": {
 			"x": 5143.00593006285,
@@ -144,191 +226,207 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_hub",
 			"short_name": "HEAT",
 			"label": "Developing data science solutions to mitigate the health impacts of climate change in Africa: the HE2AT Center (HEAT)",
-			"id": "m"
+			"id": "m",
+			"parent": "research_hub"
 		},
 		"position": {
-			"x": 1888.8184765158276,
-			"y": 1893.389136787721
+			"x": 545.6426498782625,
+			"y": 1104.5398417783572
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "elsi",
 			"short_name": "DS-I - LAW",
 			"label": "DS-I Africa - LAW",
-			"id": "n"
+			"id": "n",
+			"parent": "elsi"
 		},
 		"position": {
-			"x": 6640.780208236004,
-			"y": -1871.5418079757176
+			"x": 8015.936411698273,
+			"y": -1434.4766580380972
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "cc",
 			"short_name": "DS-I Africa CC",
 			"label": "DS-I Africa Coordinating Center",
-			"id": "o"
+			"id": "o",
+			"parent": "cc"
 		},
 		"position": {
-			"x": 5068.72735798275,
-			"y": 1587.3757835998995
+			"x": 5667.040312776229,
+			"y": 1567.8390340556225
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "DSpace",
 			"label": "DSpace: Utilizing Data Science to Predict and Improve Health Outcomes in Pediatric HIV",
-			"id": "p"
+			"id": "p",
+			"parent": "research"
 		},
 		"position": {
-			"x": 9249.148677488556,
-			"y": -71.64170122772123
+			"x": 11626.356688124884,
+			"y": 2.9791780299211723
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "elwazi",
 			"short_name": "eLwazi",
 			"label": "eLwazi (Open Data Science Platform)",
-			"id": "q"
+			"id": "q",
+			"parent": "elwazi"
 		},
 		"position": {
-			"x": 3777.645281012774,
-			"y": 1588.2770107139897
+			"x": 4136.633053888862,
+			"y": 1573.624448555782
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_education",
 			"short_name": "ENEZA",
 			"label": "Eneza Data Science: Enhancing Data Science Capability and Tools for Health in East Africa",
-			"id": "r"
+			"id": "r",
+			"parent": "research_education"
 		},
 		"position": {
-			"x": 4801.36338473716,
-			"y": 2273.1785520177286
+			"x": 4886.644389603038,
+			"y": 2646.2829483059413
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "GCAP",
 			"label": "Genome-wide characterization of complex variants and their phenotypic effects in African populations",
-			"id": "s"
+			"id": "s",
+			"parent": "research"
 		},
 		"position": {
-			"x": 10543.717071185414,
-			"y": 1112.2392921219007
+			"x": 12920.925081821742,
+			"y": 1186.860171379543
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "GDRS - Ghana",
 			"label": "Geo-enabled detect and respond system for antimalarial resistance in Ghana: GDRS - Ghana",
-			"id": "t"
+			"id": "t",
+			"parent": "research"
 		},
 		"position": {
-			"x": 7735.519045402431,
-			"y": 1352.6871177738174
+			"x": 10112.72705603876,
+			"y": 1427.3079970314595
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_education",
 			"short_name": "GRASP",
 			"label": "Growing Data-science Research in Africa to Stimulate Progress (GRASP)",
-			"id": "u"
+			"id": "u",
+			"parent": "research_education"
 		},
 		"position": {
-			"x": 4791.386707607422,
-			"y": 2825.1052664148006
+			"x": 4876.6677124733,
+			"y": 3198.2096627030132
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_hub",
 			"short_name": "D-SINE",
 			"label": "Harnessing Data Science to Promote Equity in Injury and Surgery for Africa (D-SINE)",
-			"id": "v"
+			"id": "v",
+			"parent": "research_hub"
 		},
 		"position": {
-			"x": 761.729070010087,
-			"y": 3179.4705482434592
+			"x": -581.4467566274781,
+			"y": 2390.621253234094
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "INSITE",
 			"label": "INnovative data Science to Impact the TB Epidemic (INSITE)",
-			"id": "w"
+			"id": "w",
+			"parent": "research"
 		},
 		"position": {
-			"x": 8728.057987149406,
-			"y": -391.3604179279893
+			"x": 11105.265997785735,
+			"y": -316.739538670347
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "ILERA",
 			"label": "Integrated modeLs for Early Risk-prediction in Africa (ILERA) study",
-			"id": "x"
+			"id": "x",
+			"parent": "research"
 		},
 		"position": {
-			"x": 8395.698267113297,
-			"y": 718.3866965321631
+			"x": 10772.906277749626,
+			"y": 793.0075757898055
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "",
 			"label": "Leveraging artificial intelligence/machine learning-based technology to overcome specialized training and technology barriers for the diagnosis and prognostication of colorectal cancer in Africa",
-			"id": "y"
+			"id": "y",
+			"parent": "research"
 		},
 		"position": {
-			"x": 11260.43120203008,
-			"y": -600.997474314045
+			"x": 13637.639212666409,
+			"y": -526.3765950564026
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "DICE",
 			"label": "Leveraging Data Science Applications to Improve Children's Environmental Health in Sub-Saharan Africa (DICE Project)",
-			"id": "z"
+			"id": "z",
+			"parent": "research"
 		},
 		"position": {
-			"x": 11119.849227879673,
-			"y": 1449.6089341770737
+			"x": 13497.057238516001,
+			"y": 1524.2298134347163
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_hub",
 			"short_name": "MADIVA",
 			"label": "MADIVA (Multimorbidity in Africa: Digital innovation, visualisation and application)",
-			"id": "aa"
+			"id": "aa",
+			"parent": "research_hub"
 		},
 		"position": {
-			"x": 2886.439083143596,
-			"y": 2574.4530861925123
+			"x": 1543.2632565060312,
+			"y": 1785.6037911831484
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "training",
 			"short_name": "MakDARTA",
 			"label": "Makerere University Data Science Research Training to Strengthen Evidence-Based Health Innovation, Intervention and Policy (MakDARTA)",
-			"id": "ab"
+			"id": "ab",
+			"parent": "training"
 		},
 		"position": {
 			"x": 4349.324199530405,
@@ -336,23 +434,25 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_hub",
 			"short_name": "MUDSReH",
 			"label": "MUST Data Science Research Hub (MUDSReH)",
-			"id": "ac"
+			"id": "ac",
+			"parent": "research_hub"
 		},
 		"position": {
-			"x": 2741.8243680350074,
-			"y": 3343.3580311859128
+			"x": 1398.648541397442,
+			"y": 2554.5087361765472
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "training",
 			"short_name": "DSSD",
 			"label": "NYU-Moi Data Science for Social Determinants Training Program",
-			"id": "ae"
+			"id": "ae",
+			"parent": "training"
 		},
 		"position": {
 			"x": 4060.151516886066,
@@ -360,35 +460,38 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "elsi",
 			"short_name": "PUBGEM-Africa",
 			"label": "Public Understanding of Big data in Genomics Medicine in Africa (PUBGEM-Africa)",
-			"id": "af"
+			"id": "af",
+			"parent": "elsi"
 		},
 		"position": {
-			"x": 8187.223912243336,
-			"y": -2018.99787578823
+			"x": 9562.380115705604,
+			"y": -1581.9327258506096
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "elsi",
 			"short_name": "REDSSA",
 			"label": "Research for Ethical Data Science in Southern Africa (REDSSA)",
-			"id": "ag"
+			"id": "ag",
+			"parent": "elsi"
 		},
 		"position": {
-			"x": 7253.794061161635,
-			"y": -2537.396993210716
+			"x": 8628.950264623905,
+			"y": -2100.331843273093
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "training",
 			"short_name": "DSH Training in Rwanda",
 			"label": "Research Training in Data Science for Health in Rwanda",
-			"id": "ah"
+			"id": "ah",
+			"parent": "training"
 		},
 		"position": {
 			"x": 6373.631863452447,
@@ -396,11 +499,12 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "training",
 			"short_name": "WASHA-Takwimu",
 			"label": "Research Training on Harnessing Data Science for Global Health Priorities in Africa",
-			"id": "ai"
+			"id": "ai",
+			"parent": "training"
 		},
 		"position": {
 			"x": 6092.734304773171,
@@ -408,68 +512,73 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_hub",
 			"short_name": "INFORM Africa",
 			"label": "Role of Data Streams In Informing Infection Dynamics in Africa- INFORM Africa",
-			"id": "aj"
+			"id": "aj",
+			"parent": "research_hub"
 		},
 		"position": {
-			"x": 823.4962035004932,
-			"y": 2199.29436297101
+			"x": -519.6796231370719,
+			"y": 1410.445067961646
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_education",
 			"short_name": "SYNAPSE",
 			"label": "SYNthetic Healthcare DAta Platform for Data SciEnce Training ('SYNAPSE')",
-			"id": "ak"
+			"id": "ak",
+			"parent": "research_education"
 		},
 		"position": {
-			"x": 6914.036208274501,
-			"y": 2404.5206865124132
+			"x": 6999.317213140379,
+			"y": 2777.625082800626
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research",
 			"short_name": "DS-IAFRICA-TB",
 			"label": "Tuberculosis in households with infectious cases in Kampala city: Harnessing health data science for new insights on TB transmission and treatment response (DS-IAFRICA-TB)",
-			"id": "al"
+			"id": "al",
+			"parent": "research"
 		},
 		"position": {
-			"x": 10966.530194173743,
-			"y": 173.3068750692886
+			"x": 13343.738204810072,
+			"y": 247.9277543269311
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_hub",
 			"short_name": "UZIMA-DS",
 			"label": "UZIMA-DS: UtiliZing health Information for Meaningful impact in East Africa through Data Science",
-			"id": "am"
+			"id": "am",
+			"parent": "research_hub"
 		},
 		"position": {
-			"x": 686.411060407371,
-			"y": 2721.539084800224
+			"x": -656.764766230194,
+			"y": 1932.6897897908598
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "research_education",
 			"short_name": "WACoE for DS Research Education",
 			"label": "West Africa Center of Excellence for Data Science Research Education",
-			"id": "an"
+			"id": "an",
+			"parent": "research_education"
 		},
 		"position": {
-			"x": 5891.237242647704,
-			"y": 2065.21219733751
+			"x": 5976.518247513582,
+			"y": 2438.316593625723
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UCT",
 			"label": "University of Cape Town",
 			"id": "ao"
@@ -480,20 +589,20 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "MU",
 			"label": "Mbarara University",
 			"id": "ap"
 		},
 		"position": {
-			"x": 3462.8341069933376,
-			"y": 3505.171824287064
+			"x": 4073.820938510468,
+			"y": 4291.590518319013
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "SU",
 			"label": "Stellenbosch University",
 			"id": "aq"
@@ -504,8 +613,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "AKU",
 			"label": "Aga Khan University",
 			"id": "ar"
@@ -516,8 +625,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "RU",
 			"label": "Redeemer's University",
 			"id": "as"
@@ -528,8 +637,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "Wits",
 			"label": "University of Witswatersrand",
 			"id": "at"
@@ -540,8 +649,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "IHVN",
 			"label": "Institute of Human Virology Nigeria",
 			"id": "au"
@@ -552,8 +661,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UB",
 			"label": "University of Buea",
 			"id": "av"
@@ -564,8 +673,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "KNUST",
 			"label": "Kwame Nkrumah University of Science & Technology",
 			"id": "aw"
@@ -576,8 +685,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "CU",
 			"label": "Columbia University",
 			"id": "ax"
@@ -588,8 +697,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "HSPH",
 			"label": "Harvard School of Public Health",
 			"id": "ay"
@@ -600,8 +709,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UR",
 			"label": "University of Rwanda",
 			"id": "az"
@@ -612,8 +721,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "NYU",
 			"label": "New York University",
 			"id": "ba"
@@ -624,8 +733,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UKZN",
 			"label": "University of KwaZulu-Natal",
 			"id": "bb"
@@ -636,8 +745,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "CBR",
 			"label": "Center for Bioethics Research",
 			"id": "bc"
@@ -648,8 +757,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "MU",
 			"label": "Makerere University",
 			"id": "bd"
@@ -660,8 +769,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "UGA",
 			"label": "Uganda",
 			"id": "be"
@@ -672,8 +781,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "ZAF",
 			"label": "South Africa",
 			"id": "bf"
@@ -684,8 +793,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "KEN",
 			"label": "Kenya",
 			"id": "bg"
@@ -696,8 +805,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "NGA",
 			"label": "Nigeria",
 			"id": "bh"
@@ -708,8 +817,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "CMR",
 			"label": "Cameroon",
 			"id": "bi"
@@ -720,8 +829,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "GHA",
 			"label": "Ghana",
 			"id": "bj"
@@ -732,8 +841,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "USA",
 			"label": "United States of America",
 			"id": "bk"
@@ -744,8 +853,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "RWA",
 			"label": "Rwanda",
 			"id": "bl"
@@ -756,8 +865,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UWC",
 			"label": "University of the Western Cape",
 			"id": "bm"
@@ -768,8 +877,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UoM",
 			"label": "University of Mauritius",
 			"id": "bn"
@@ -780,8 +889,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "MUS",
 			"label": "Mauritius",
 			"id": "bo"
@@ -792,8 +901,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UofK",
 			"label": "University of Khartoum",
 			"id": "bp"
@@ -804,8 +913,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "SDN",
 			"label": "Sudan",
 			"id": "bq"
@@ -816,8 +925,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UVRI",
 			"label": "Uganda Viral Research Institute",
 			"id": "br"
@@ -828,8 +937,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "USTTB",
 			"label": "University of Science, Techniques and Technology, Bamako",
 			"id": "bs"
@@ -840,8 +949,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "MLI",
 			"label": "Mali",
 			"id": "bt"
@@ -852,8 +961,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "EMBL-EBI",
 			"label": "EMBL European Bioinformatics Institute",
 			"id": "bu"
@@ -864,8 +973,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "GBR",
 			"label": " United Kingdom of Great Britain and Northern Ireland",
 			"id": "bv"
@@ -876,104 +985,105 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UChicago",
 			"label": "University of Chicago",
 			"id": "bw"
 		},
 		"position": {
-			"x": 7405.202752680343,
-			"y": 3272.5928595272394
+			"x": 6215.092990954373,
+			"y": -2455.9713675882927
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "UCSC",
 			"label": "University of California, Santa Cruz",
 			"id": "bx"
 		},
 		"position": {
-			"x": 8197.346182626825,
-			"y": 2958.752537574896
+			"x": 4181.194870558402,
+			"y": -2811.942648737122
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "institution",
 			"short_name": "BI",
 			"label": "Broad Institute",
 			"id": "by"
 		},
 		"position": {
-			"x": 7180.64822269094,
-			"y": 3594.1572637860727
+			"x": 1574.1448009141852,
+			"y": -1343.9958350741902
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "TGHN",
 			"label": "The Global Health Network",
 			"id": "bz"
 		},
 		"position": {
-			"x": 2997.5065332742442,
-			"y": 681.4992111034405
+			"x": 5017.997639479406,
+			"y": 2054.7072383746136
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "GA4GH",
 			"label": "Global Alliance for Genomics & Health",
 			"id": "ca"
 		},
 		"position": {
-			"x": 2424.3399028874865,
-			"y": 1209.881510968449
+			"x": 2472.7348994432987,
+			"y": 3121.4838749230335
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "CAN",
 			"label": "Canada",
 			"id": "cb"
 		},
 		"position": {
-			"x": 1211.3814197649353,
-			"y": 1371.5283508058933
+			"x": 2378.9107116739065,
+			"y": 3434.3650789973904
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "OHDSI",
 			"label": "Observational Health Data Sciences and Informatics",
-			"id": "cc"
+			"id": "cc",
+			"parent": "external-partner"
 		},
 		"position": {
-			"x": 1517.5811023805798,
-			"y": 1043.630683368241
+			"x": 5667.040312776229,
+			"y": 1522.3390340556225
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "AOSP",
 			"label": "African Open Science Platform",
 			"id": "cd"
 		},
 		"position": {
-			"x": 2989.9442689377092,
-			"y": 430.30834545789924
+			"x": 1501.7981248464823,
+			"y": -1807.9602452484176
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "SisonkeBiotik",
 			"label": "SisonkeBiotik",
 			"id": "ce"
@@ -984,8 +1094,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "REDCap",
 			"label": "REDCap Africa",
 			"id": "cf"
@@ -996,8 +1106,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "Ilifu",
 			"label": "Ilifu Cloud computing facility",
 			"id": "cg"
@@ -1008,32 +1118,32 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "ACE",
 			"label": "African Centers for Excellence in Bioinformatics and Data-Intensive Science",
 			"id": "ch"
 		},
 		"position": {
-			"x": 1061.0825700870128,
-			"y": 353.06723727593845
+			"x": 189.97263208239224,
+			"y": 207.88224760850173
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "HPRC",
 			"label": "Human Pangenome Reference Consortium",
 			"id": "ci"
 		},
 		"position": {
-			"x": 2923.9415831152814,
-			"y": 938.4083119342102
+			"x": 3002.5834525184764,
+			"y": 877.9145662394449
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "AfricaBP",
 			"label": "African Biogenome Project",
 			"id": "cj"
@@ -1044,8 +1154,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "continent",
 			"short_name": "Africa",
 			"label": "Africa",
 			"id": "ck"
@@ -1056,20 +1166,20 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "Theiagen",
 			"label": "Theiagen Genomics",
 			"id": "cl"
 		},
 		"position": {
-			"x": 2623.564832629277,
-			"y": -626.8332531547765
+			"x": 984.1843243011373,
+			"y": -1110.783218712899
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "PHA4GE",
 			"label": "Public Health Alliance for Genomic Epidemiology",
 			"id": "cm"
@@ -1080,8 +1190,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "AfricaCDC",
 			"label": "NGS Academy for the Africa CDC's Africa Pathogen Genomics Initiative",
 			"id": "cn"
@@ -1092,32 +1202,32 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "DSA",
 			"label": "Data Science Africa",
 			"id": "co"
 		},
 		"position": {
-			"x": 2920.8901279617967,
-			"y": 70.8833555067742
+			"x": 7028.415460636362,
+			"y": 1897.7944754886869
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "external-partner",
 			"short_name": "IndabaX",
 			"label": "IndabaX",
 			"id": "cp"
 		},
 		"position": {
-			"x": 2678.5230320792484,
-			"y": -305.7175891226837
+			"x": 6677.159622503235,
+			"y": 2071.6866166815935
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "ETH",
 			"label": "Ethiopia",
 			"id": "cq"
@@ -1128,8 +1238,8 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "ZWE",
 			"label": "Zimbabwe",
 			"id": "cr"
@@ -1140,20 +1250,20 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "CIV",
 			"label": "Côte d'Ivoire",
 			"id": "cs"
 		},
 		"position": {
-			"x": 326.31177783276087,
-			"y": 2018.6327054953008
+			"x": -496.40316361604755,
+			"y": 633.3259290851752
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "BFA",
 			"label": "Burkina Faso",
 			"id": "ct"
@@ -1164,15 +1274,15 @@
 		}
 	},
 	{
+		"group": "nodes",
 		"data": {
-			"group": "country",
 			"short_name": "TZA",
 			"label": "Tanzania",
 			"id": "cu"
 		},
 		"position": {
-			"x": 7149.796255610979,
-			"y": -473.54991249220575
+			"x": 6296.834441314788,
+			"y": -1483.7954655947867
 		}
 	}
 ]

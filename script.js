@@ -1,10 +1,7 @@
 import cytoscape from "cytoscape";
-import coseBilkent from "cytoscape-cose-bilkent";
 
 import nodes from "./data/nodes.json";
 import { edges } from "./data/edges";
-
-cytoscape.use(coseBilkent);
 
 // Initialise cytoscape
 const cy = cytoscape({
@@ -19,7 +16,7 @@ const cy = cytoscape({
 		{
 			selector: "node",
 			style: {
-				"background-color": "#ff0000",
+				"background-color": "orange",
 				label: "data(label)",
 				"font-family": "Futura Std Book, sans-serif",
 				"font-weight": "bold",
@@ -28,6 +25,12 @@ const cy = cytoscape({
 				"text-outline-width": "10px",
 				width: 90,
 				height: 90,
+			},
+		},
+		{
+			selector: "node:parent",
+			style: {
+				"background-opacity": 0.5,
 			},
 		},
 		{
@@ -40,67 +43,67 @@ const cy = cytoscape({
 			},
 		},
 		{
-			selector: 'node[group="elsi"]',
+			selector: 'node[id="elsi"]',
 			style: {
 				"background-color": "red",
 			},
 		},
 		{
-			selector: 'node[group="research"]',
+			selector: 'node[id="research"]',
 			style: {
 				"background-color": "skyblue",
 			},
 		},
 		{
-			selector: 'node[group="research_hub"]',
+			selector: 'node[id="research_hub"]',
 			style: {
 				"background-color": "green",
 			},
 		},
 		{
-			selector: 'node[group="training"]',
+			selector: 'node[id="training"]',
 			style: {
 				"background-color": "orange",
 			},
 		},
 		{
-			selector: 'node[group="research_education"]',
+			selector: 'node[id="research_education"]',
 			style: {
 				"background-color": "grey",
 			},
 		},
 		{
-			selector: 'node[group="elwazi"]',
+			selector: 'node[id="elwazi"]',
 			style: {
 				"background-color": "blue",
 			},
 		},
 		{
-			selector: 'node[group="cc"]',
+			selector: 'node[id="cc"]',
 			style: {
 				"background-color": "blue",
 			},
 		},
 		{
-			selector: 'node[group="institution"]',
+			selector: 'node[id="institution"]',
 			style: {
 				"background-color": "lightgreen",
 			},
 		},
 		{
-			selector: 'node[group="country"]',
+			selector: 'node[id="country"]',
 			style: {
 				"background-color": "purple",
 			},
 		},
 		{
-			selector: 'node[group="external-partner"]',
+			selector: 'node[id="external-partner"]',
 			style: {
 				"background-color": "pink",
 			},
 		},
 		{
-			selector: 'node[group="continent"]',
+			selector: 'node[id="continent"]',
 			style: {
 				"background-color": "black",
 			},
@@ -116,11 +119,11 @@ const cy = cytoscape({
 		const cy = e.cy;
 
 		// Filter to select nodes with edges
-		cy.nodes().forEach(function (node) {
-			if (node.connectedEdges().length === 0) {
-				node.style("display", "none"); // Hide nodes without edges
-			}
-		});
+		// cy.nodes().forEach(function (node) {
+		// 	if (node.connectedEdges().length === 0) {
+		// 		node.style("display", "none"); // Hide nodes without edges
+		// 	}
+		// });
 	},
 });
 
