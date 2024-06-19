@@ -3,6 +3,29 @@ import cytoscape from "cytoscape";
 import nodes from "./data/nodes.json";
 import { edges } from "./data/edges";
 
+const rootElement = document.documentElement;
+console.log(getComputedStyle(rootElement));
+
+// Get the custom property values
+const elsiColour = getComputedStyle(rootElement).getPropertyValue("--elsi");
+const researchColour =
+	getComputedStyle(rootElement).getPropertyValue("--research");
+const researchHubColour =
+	getComputedStyle(rootElement).getPropertyValue("--hubs");
+const trainingColour =
+	getComputedStyle(rootElement).getPropertyValue("--training");
+const researchEducationColour =
+	getComputedStyle(rootElement).getPropertyValue("--education");
+const elwaziColour =
+	getComputedStyle(rootElement).getPropertyValue("--elwazicc");
+const ccColour = getComputedStyle(rootElement).getPropertyValue("--elwazicc");
+const institutionColour =
+	getComputedStyle(rootElement).getPropertyValue("--institution");
+const countryColour =
+	getComputedStyle(rootElement).getPropertyValue("--country");
+const externalPartnerColour =
+	getComputedStyle(rootElement).getPropertyValue("--external");
+
 // Initialise cytoscape
 const cy = cytoscape({
 	// Set container for graph.
@@ -44,121 +67,121 @@ const cy = cytoscape({
 		{
 			selector: 'node[id="elsi"]',
 			style: {
-				"background-color": "red",
+				"background-color": elsiColour,
 			},
 		},
 		{
 			selector: 'node[id="research"]',
 			style: {
-				"background-color": "skyblue",
+				"background-color": researchColour,
 			},
 		},
 		{
 			selector: 'node[id="research_hub"]',
 			style: {
-				"background-color": "green",
+				"background-color": researchHubColour,
 			},
 		},
 		{
 			selector: 'node[id="training"]',
 			style: {
-				"background-color": "orange",
+				"background-color": trainingColour,
 			},
 		},
 		{
 			selector: 'node[id="research_education"]',
 			style: {
-				"background-color": "grey",
+				"background-color": researchEducationColour,
 			},
 		},
 		{
 			selector: 'node[id="elwazi"]',
 			style: {
-				"background-color": "blue",
+				"background-color": elwaziColour,
 			},
 		},
 		{
 			selector: 'node[id="cc"]',
 			style: {
-				"background-color": "blue",
+				"background-color": ccColour,
 			},
 		},
 		{
 			selector: 'node[id="institution"]',
 			style: {
-				"background-color": "lightgreen",
+				"background-color": institutionColour,
 			},
 		},
 		{
 			selector: 'node[id="country"]',
 			style: {
-				"background-color": "purple",
+				"background-color": countryColour,
 			},
 		},
 		{
 			selector: 'node[id="external-partner"]',
 			style: {
-				"background-color": "pink",
+				"background-color": externalPartnerColour,
 			},
 		},
 		{
 			selector: 'node[group="elsi"]',
 			style: {
-				"background-color": "red",
+				"background-color": elsiColour,
 			},
 		},
 		{
 			selector: 'node[group="research"]',
 			style: {
-				"background-color": "skyblue",
+				"background-color": researchColour,
 			},
 		},
 		{
 			selector: 'node[group="research_hub"]',
 			style: {
-				"background-color": "green",
+				"background-color": researchHubColour,
 			},
 		},
 		{
 			selector: 'node[group="training"]',
 			style: {
-				"background-color": "orange",
+				"background-color": trainingColour,
 			},
 		},
 		{
 			selector: 'node[group="research_education"]',
 			style: {
-				"background-color": "grey",
+				"background-color": researchEducationColour,
 			},
 		},
 		{
 			selector: 'node[group="elwazi"]',
 			style: {
-				"background-color": "blue",
+				"background-color": elwaziColour,
 			},
 		},
 		{
 			selector: 'node[group="cc"]',
 			style: {
-				"background-color": "blue",
+				"background-color": ccColour,
 			},
 		},
 		{
 			selector: 'node[group="institution"]',
 			style: {
-				"background-color": "lightgreen",
+				"background-color": institutionColour,
 			},
 		},
 		{
 			selector: 'node[group="country"]',
 			style: {
-				"background-color": "purple",
+				"background-color": countryColour,
 			},
 		},
 		{
 			selector: 'node[group="external-partner"]',
 			style: {
-				"background-color": "pink",
+				"background-color": externalPartnerColour,
 			},
 		},
 	],

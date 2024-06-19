@@ -175,7 +175,7 @@
 	--education: grey;
 	--institution: lightgreen;
 	--country: purple;
-	--institution: pink;
+	--external: pink;
 }
 
 body {
@@ -290,5 +290,5 @@ h1 {
 	background: var(--country);
 }
 .legend li:nth-child(9) div {
-	background: var(--institution);
+	background: var(--external);
 }
