@@ -4,7 +4,6 @@ import nodes from "./data/nodes.json";
 import { edges } from "./data/edges";
 
 const rootElement = document.documentElement;
-console.log(getComputedStyle(rootElement));
 
 // Get the custom property values
 const elsiColour = getComputedStyle(rootElement).getPropertyValue("--elsi");
