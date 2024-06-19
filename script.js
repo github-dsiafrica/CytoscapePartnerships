@@ -52,7 +52,7 @@ const cy = cytoscape({
 		{
 			selector: "node:parent",
 			style: {
-				"background-opacity": 0.5,
+				"background-opacity": 0.4,
 			},
 		},
 		{
@@ -65,121 +65,62 @@ const cy = cytoscape({
 			},
 		},
 		{
-			selector: 'node[id="elsi"]',
+			selector: 'node[id="elsi"], node[group="elsi"]',
 			style: {
 				"background-color": elsiColour,
 			},
 		},
 		{
-			selector: 'node[id="research"]',
+			selector: 'node[id="research"], node[group="research"]',
 			style: {
 				"background-color": researchColour,
 			},
 		},
 		{
-			selector: 'node[id="research_hub"]',
+			selector: 'node[id="research_hub"], node[group="research_hub"]',
 			style: {
 				"background-color": researchHubColour,
 			},
 		},
 		{
-			selector: 'node[id="training"]',
+			selector: 'node[id="training"], node[group="training"]',
 			style: {
 				"background-color": trainingColour,
 			},
 		},
 		{
-			selector: 'node[id="research_education"]',
+			selector:
+				'node[id="research_education"], node[group="research_education"]',
 			style: {
 				"background-color": researchEducationColour,
 			},
 		},
 		{
-			selector: 'node[id="elwazi"]',
+			selector: 'node[id="elwazi"], node[group="elwazi"]',
 			style: {
 				"background-color": elwaziColour,
 			},
 		},
 		{
-			selector: 'node[id="cc"]',
+			selector: 'node[id="cc"], node[group="cc"]',
 			style: {
 				"background-color": ccColour,
 			},
 		},
 		{
-			selector: 'node[id="institution"]',
+			selector: 'node[id="institution"], node[group="institution"]',
 			style: {
 				"background-color": institutionColour,
 			},
 		},
 		{
-			selector: 'node[id="country"]',
+			selector: 'node[id="country"], node[group="country"]',
 			style: {
 				"background-color": countryColour,
 			},
 		},
 		{
-			selector: 'node[id="external-partner"]',
-			style: {
-				"background-color": externalPartnerColour,
-			},
-		},
-		{
-			selector: 'node[group="elsi"]',
-			style: {
-				"background-color": elsiColour,
-			},
-		},
-		{
-			selector: 'node[group="research"]',
-			style: {
-				"background-color": researchColour,
-			},
-		},
-		{
-			selector: 'node[group="research_hub"]',
-			style: {
-				"background-color": researchHubColour,
-			},
-		},
-		{
-			selector: 'node[group="training"]',
-			style: {
-				"background-color": trainingColour,
-			},
-		},
-		{
-			selector: 'node[group="research_education"]',
-			style: {
-				"background-color": researchEducationColour,
-			},
-		},
-		{
-			selector: 'node[group="elwazi"]',
-			style: {
-				"background-color": elwaziColour,
-			},
-		},
-		{
-			selector: 'node[group="cc"]',
-			style: {
-				"background-color": ccColour,
-			},
-		},
-		{
-			selector: 'node[group="institution"]',
-			style: {
-				"background-color": institutionColour,
-			},
-		},
-		{
-			selector: 'node[group="country"]',
-			style: {
-				"background-color": countryColour,
-			},
-		},
-		{
-			selector: 'node[group="external-partner"]',
+			selector: 'node[id="external-partner"], node[group="external-partner"]',
 			style: {
 				"background-color": externalPartnerColour,
 			},
