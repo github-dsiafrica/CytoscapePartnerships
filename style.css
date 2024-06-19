@@ -190,6 +190,14 @@ h1 {
 	translate: 0 -50%;
 }
 
+.logo {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	width: 10rem;
+	/* opacity: 0.5; */
+}
+
 button {
 	position: absolute;
 	padding: 0.3rem 0.7rem;
