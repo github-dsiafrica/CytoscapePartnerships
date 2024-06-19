@@ -4,9 +4,9 @@ import { saveAs } from "file-saver";
 import nodes from "./data/nodes.json";
 import { edges } from "./data/edges";
 
+// Get the custom property values
 const rootElement = document.documentElement;
 
-// Get the custom property values
 const elsiColour = getComputedStyle(rootElement).getPropertyValue("--elsi");
 const researchColour =
 	getComputedStyle(rootElement).getPropertyValue("--research");
