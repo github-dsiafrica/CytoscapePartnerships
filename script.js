@@ -243,7 +243,7 @@ document.getElementById("fit").addEventListener("click", () => {
 document.getElementById("export").addEventListener("click", async () => {
 	const blob = await cy.png({
 		bg: "white",
-		full: true,
+		scale: 9,
 		output: "blob-promise",
 	});
 	saveAs(blob, "graph.png");
