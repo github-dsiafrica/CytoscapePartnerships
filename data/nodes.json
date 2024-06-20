@@ -1408,5 +1408,83 @@
 			"x": -232.91497873884433,
 			"y": -1211.1578894419902
 		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "University of Ghana",
+			"label": "University of Ghana",
+			"id": "cx"
+		},
+		"group": "nodes",
+		"position": {
+			"x": 1281.0323830636435,
+			"y": -2061.297561838772
+		}
+	},
+	{
+		"data": {
+			"group": "institution",
+			"short_name": "University of Washington",
+			"label": "University of Washington",
+			"id": "cy"
+		},
+		"group": "nodes",
+		"position": {
+			"x": 920.0141660184352,
+			"y": -2305.8582895145582
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Smile Train",
+			"label": "Smile Train",
+			"id": "cz"
+		},
+		"group": "nodes",
+		"position": {
+			"x": -780.2651787751283,
+			"y": -442.5384596038041
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Seattle Children’s Research Institute",
+			"label": "Seattle Children’s Research Institute",
+			"id": "da"
+		},
+		"group": "nodes",
+		"position": {
+			"x": -861.7854213337238,
+			"y": -1385.8441234961235
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Harborview Injury Prevention Center",
+			"label": "Harborview Injury Prevention Center",
+			"id": "db"
+		},
+		"group": "nodes",
+		"position": {
+			"x": 128.10323830636437,
+			"y": -1921.5485745954654
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Komfo Anokye Teaching Hospital",
+			"label": "Komfo Anokye Teaching Hospital",
+			"id": "dc"
+		},
+		"group": "nodes",
+		"position": {
+			"x": -174.68623405413322,
+			"y": -1630.4048511719102
+		}
 	}
 ]

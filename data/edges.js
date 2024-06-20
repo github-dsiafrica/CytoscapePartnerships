@@ -1547,6 +1547,46 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("University of Ghana")}_${nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			)}`,
+			source: nodesMap.get("University of Ghana"),
+			target: nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Ghana")}_${nodesMap.get(
+				"Ghana"
+			)}`,
+			source: nodesMap.get("University of Ghana"),
+			target: nodesMap.get("Ghana"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Washington")}_${nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			)}`,
+			source: nodesMap.get("University of Washington"),
+			target: nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("University of Washington")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("University of Washington"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
 				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
 			)}`,
@@ -1554,6 +1594,86 @@ export const edges = [
 			target: nodesMap.get(
 				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
 			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Smile Train")}_${nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			)}`,
+			source: nodesMap.get("Smile Train"),
+			target: nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Smile Train")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("Smile Train"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			)}_${nodesMap.get("Seattle Children’s Research Institute")}`,
+			source: nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			),
+			target: nodesMap.get("Seattle Children’s Research Institute"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Seattle Children’s Research Institute"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get("Seattle Children’s Research Institute"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			)}_${nodesMap.get("Harborview Injury Prevention Center")}`,
+			source: nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			),
+			target: nodesMap.get("Harborview Injury Prevention Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("United States of America")}_${nodesMap.get(
+				"Harborview Injury Prevention Center"
+			)}`,
+			source: nodesMap.get("United States of America"),
+			target: nodesMap.get("Harborview Injury Prevention Center"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			)}_${nodesMap.get("Komfo Anokye Teaching Hospital")}`,
+			source: nodesMap.get(
+				"Data Science for Child Health Now in Ghana (DS-CHANGE)"
+			),
+			target: nodesMap.get("Komfo Anokye Teaching Hospital"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("Ghana")}_${nodesMap.get(
+				"Komfo Anokye Teaching Hospital"
+			)}`,
+			source: nodesMap.get("Ghana"),
+			target: nodesMap.get("Komfo Anokye Teaching Hospital"),
 		},
 	},
 	{
