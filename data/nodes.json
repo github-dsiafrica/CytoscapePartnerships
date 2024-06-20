@@ -1369,5 +1369,44 @@
 			"y": -1123.8175745945193
 		},
 		"group": "nodes"
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "NASA/JPL",
+			"label": "NASA/JPL",
+			"id": "ck"
+		},
+		"group": "nodes",
+		"position": {
+			"x": 570.6416979101685,
+			"y": -1513.9473618024876
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "ICAP",
+			"label": "ICAP",
+			"id": "cv"
+		},
+		"group": "nodes",
+		"position": {
+			"x": -512.4129532254574,
+			"y": -326.080970234382
+		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "IBM East Africa",
+			"label": "IBM East Africa",
+			"id": "cw"
+		},
+		"group": "nodes",
+		"position": {
+			"x": -232.91497873884433,
+			"y": -1211.1578894419902
+		}
 	}
 ]

@@ -1591,6 +1591,62 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get("IBM East Africa")}_${nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			)}`,
+			source: nodesMap.get("IBM East Africa"),
+			target: nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("IBM East Africa")}_${nodesMap.get("Kenya")}`,
+			source: nodesMap.get("IBM East Africa"),
+			target: nodesMap.get("Kenya"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("ICAP")}_${nodesMap.get("Columbia University")}`,
+			source: nodesMap.get("ICAP"),
+			target: nodesMap.get("Columbia University"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("ICAP")}_${nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			)}`,
+			source: nodesMap.get("ICAP"),
+			target: nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("NASA/JPL")}_${nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			)}`,
+			source: nodesMap.get("NASA/JPL"),
+			target: nodesMap.get(
+				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
+			),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("NASA/JPL")}_${nodesMap.get(
+				"United States of America"
+			)}`,
+			source: nodesMap.get("NASA/JPL"),
+			target: nodesMap.get("United States of America"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get(
 				"NYU-Moi Data Science for Social Determinants Training Program"
 			)}_${nodesMap.get(
