@@ -1486,5 +1486,32 @@
 			"x": -174.68623405413322,
 			"y": -1630.4048511719102
 		}
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Accso",
+			"label": "Accso",
+			"id": "dd"
+		},
+		"group": "nodes"
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "AI Roundtable",
+			"label": "AI Roundtable",
+			"id": "de"
+		},
+		"group": "nodes"
+	},
+	{
+		"data": {
+			"group": "external-partner",
+			"short_name": "Oran and Eva",
+			"label": "Oran and Eva",
+			"id": "df"
+		},
+		"group": "nodes"
 	}
 ]

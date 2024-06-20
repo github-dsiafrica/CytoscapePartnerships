@@ -1711,6 +1711,58 @@ export const edges = [
 	},
 	{
 		data: {
+			id: `edge_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${nodesMap.get("Accso")}`,
+			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get("Accso"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("South Africa")}_${nodesMap.get("Accso")}`,
+			source: nodesMap.get("South Africa"),
+			target: nodesMap.get("Accso"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${nodesMap.get("Oran and Eva")}`,
+			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get("Oran and Eva"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("South Africa")}_${nodesMap.get(
+				"Oran and Eva"
+			)}`,
+			source: nodesMap.get("South Africa"),
+			target: nodesMap.get("Oran and Eva"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get(
+				"DS-I Africa Coordinating Center"
+			)}_${nodesMap.get("AI Roundtable")}`,
+			source: nodesMap.get("DS-I Africa Coordinating Center"),
+			target: nodesMap.get("AI Roundtable"),
+		},
+	},
+	{
+		data: {
+			id: `edge_${nodesMap.get("South Africa")}_${nodesMap.get(
+				"AI Roundtable"
+			)}`,
+			source: nodesMap.get("South Africa"),
+			target: nodesMap.get("AI Roundtable"),
+		},
+	},
+	{
+		data: {
 			id: `edge_${nodesMap.get("IBM East Africa")}_${nodesMap.get(
 				"Advancing Public Health Research in Eastern Africa through Data Science Training (APHREA-DST)"
 			)}`,
