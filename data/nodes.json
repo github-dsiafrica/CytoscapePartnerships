@@ -1405,8 +1405,8 @@
 		},
 		"group": "nodes",
 		"position": {
-			"x": -232.91497873884433,
-			"y": -1211.1578894419902
+			"x": -223.67351345339986,
+			"y": -1220.3993547274347
 		}
 	},
 	{
@@ -1494,7 +1494,11 @@
 			"label": "Accso",
 			"id": "dd"
 		},
-		"group": "nodes"
+		"group": "nodes",
+		"position": {
+			"x": 0,
+			"y": 0
+		}
 	},
 	{
 		"data": {
@@ -1503,7 +1507,11 @@
 			"label": "AI Roundtable",
 			"id": "de"
 		},
-		"group": "nodes"
+		"group": "nodes",
+		"position": {
+			"x": 596.0131626421796,
+			"y": -235.46199017962653
+		}
 	},
 	{
 		"data": {
@@ -1512,6 +1520,10 @@
 			"label": "Oran and Eva",
 			"id": "df"
 		},
-		"group": "nodes"
+		"group": "nodes",
+		"position": {
+			"x": 228.10380298651322,
+			"y": -356.87207886599646
+		}
 	}
 ]
